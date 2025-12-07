@@ -18,7 +18,7 @@ cloudinary.config(
   secure = True
 )
 
-# --- YOUR HEADERS & COOKIES (From gundam_card_scraper.py) ---
+# --- HEADERS & COOKIES ---
 HEADERS = {
     'accept': '*/*',
     'accept-language': 'en-US,en;q=0.9',
@@ -46,12 +46,10 @@ def parse_cookie_string(cookie_string):
     return cookies
 
 # --- HELPER: Upload Image to Cloudinary ---
-# UPDATED: Now accepts the 'session' object to use your headers/cookies logic
 def upload_image_to_cloudinary(session, image_url, card_id):
     temp_filename = f"temp_{card_id}.jpg"
     
     try:
-        # Use the SESSION to download (Matches download_images.py logic)
         with session.get(image_url, stream=True) as r:
             r.raise_for_status()
             with open(temp_filename, 'wb') as f:
@@ -59,7 +57,6 @@ def upload_image_to_cloudinary(session, image_url, card_id):
                     f.write(chunk)
         
         print(f"Uploading image for {card_id}...")
-        # Upload to Cloudinary
         upload_result = cloudinary.uploader.upload(
             temp_filename,
             public_id = f"gundam_cards/{card_id}", 
@@ -68,7 +65,6 @@ def upload_image_to_cloudinary(session, image_url, card_id):
             invalidate = True
         )
         
-        # Cleanup local file
         if os.path.exists(temp_filename):
             os.remove(temp_filename)
             
@@ -82,12 +78,11 @@ def upload_image_to_cloudinary(session, image_url, card_id):
 
 # --- CORE LOGIC ---
 def run_update():
-    # 1. Setup Session (Matches download_images.py logic)
     session = requests.Session()
     session.headers.update(HEADERS)
     session.cookies.update(parse_cookie_string(COOKIE_STRING))
 
-    # 2. Load Existing Database
+    # 1. Load Existing Database
     if os.path.exists(JSON_FILE):
         with open(JSON_FILE, 'r', encoding='utf-8') as f:
             try:
@@ -100,10 +95,9 @@ def run_update():
 
     print(f"Loaded {len(existing_db)} existing cards.")
 
-    # 3. Fetch New Data from API
+    # 2. Fetch New Data
     print(f"Querying API: {API_URL}")
     try:
-        # Use the SESSION for the API call too
         response = session.get(API_URL)
         response.raise_for_status()
         api_data = response.json()
@@ -115,7 +109,7 @@ def run_update():
     
     updates_count = 0
     
-    # 4. Process Each Card
+    # 3. Process Cards
     for card in api_data:
         card_id = card.get('cardNo')
         original_image_url = card.get('image')
@@ -123,22 +117,16 @@ def run_update():
         if not card_id or not original_image_url:
             continue
 
-        # Logic: Is this card new?
         is_new_card = card_id not in existing_db
-        
-        # Logic: Do we have a working Cloudinary link for it?
         has_valid_image = False
         if not is_new_card:
             current_entry = existing_db[card_id]
-            # Check if we already have a Cloudinary URL
             if "cloudinary_url" in current_entry and "res.cloudinary.com" in current_entry["cloudinary_url"]:
                 has_valid_image = True
         
-        # If it's a new card OR we are missing the Cloudinary image -> PROCESS IT
         if is_new_card or not has_valid_image:
             print(f"Processing NEW/UPDATED card: {card_id}")
             
-            # Pass the SESSION to the upload function so it uses your headers
             cloud_url = upload_image_to_cloudinary(session, original_image_url, card_id)
             
             if cloud_url:
@@ -146,8 +134,17 @@ def run_update():
                     "card_id": card_id,
                     "name": card.get('name', 'Unknown'),
                     "set": card.get('series', 'Unknown'),
-                    "text": card.get('effect') or card.get('text', ''),
+                    
+                    # --- VITAL STATS ---
+                    # 'effect' is the API name, 'text' is our DB name
+                    "text": card.get('effect') or card.get('text', ''), 
                     "power": card.get('bp') or card.get('power', 0),
+                    "cost": card.get('cost', 0),
+                    "color": card.get('color', 'Unknown'),
+                    "rarity": card.get('rarity', 'Unknown'),
+                    "type": card.get('cardType', 'Unit'), 
+                    # -------------------
+
                     "original_image_url": original_image_url,
                     "cloudinary_url": cloud_url,
                     "last_updated": str(datetime.datetime.now())
@@ -155,11 +152,9 @@ def run_update():
                 
                 existing_db[card_id] = clean_record
                 updates_count += 1
-                
-                # Sleep to match your download_images.py pacing logic
                 time.sleep(0.5)
 
-    # 5. Save Database
+    # 4. Save
     if updates_count > 0:
         print(f"Saving {updates_count} new updates to {JSON_FILE}...")
         final_list = list(existing_db.values())
