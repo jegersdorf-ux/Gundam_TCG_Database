@@ -26,13 +26,19 @@ HEADERS = {
     'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36'
 }
 
+# GLOBAL STATE FOR RATE LIMITING
+RATE_LIMIT_HIT = False
+
 def upload_image_to_cloudinary(image_url, public_id):
+    global RATE_LIMIT_HIT
+    if RATE_LIMIT_HIT: return image_url
+
     try:
-        try:
-            res = cloudinary.api.resource(f"gundam_cards/{public_id}")
-            return res['secure_url'] 
-        except cloudinary.exceptions.NotFound:
-            pass 
+        # Optional: Check existence (Consumes Admin API credit)
+        # try:
+        #     res = cloudinary.api.resource(f"gundam_cards/{public_id}")
+        #     return res['secure_url'] 
+        # except: pass 
 
         result = cloudinary.uploader.upload(
             image_url,
@@ -42,7 +48,12 @@ def upload_image_to_cloudinary(image_url, public_id):
         )
         return result['secure_url'] 
     except Exception as e:
-        print(f"   ❌ Cloudinary Error ({public_id}): {e}")
+        error_msg = str(e)
+        if "420" in error_msg or "Rate Limit" in error_msg:
+            print(f"   🛑 RATE LIMIT REACHED. Switching to text-only mode.")
+            RATE_LIMIT_HIT = True
+        else:
+            print(f"   ❌ Cloudinary Error ({public_id}): {e}")
         return image_url 
 
 def discover_sets():
@@ -68,7 +79,7 @@ def discover_sets():
             except: pass
 
             if exists:
-                limit = 130 if prefix == "GD" else 35
+                limit = 135 if prefix == "GD" else 35
                 found_sets.append({"code": set_code, "limit": limit})
                 set_miss_streak = 0
             else:
@@ -84,12 +95,16 @@ def scrape_card(card_id):
     url = DETAIL_URL_TEMPLATE.format(card_id)
     try:
         resp = requests.get(url, headers=HEADERS, timeout=5)
+        # 1. Validation: 200 OK and NOT a redirect
         if resp.status_code != 200 or "cardlist" in resp.url: return None 
+        
         soup = BeautifulSoup(resp.content, "html.parser")
         
+        # 2. Validation: Must have a Name
         name_tag = soup.select_one(".cardName, h1")
         if not name_tag: return None
         name = name_tag.text.strip()
+        if not name: return None # Empty name is invalid
 
         stats = {"level": "-", "cost": "-", "hp": "-", "ap": "-", "rarity": "-", "color": "N/A", "type": "UNIT"}
         for dt in soup.find_all("dt"):
@@ -113,7 +128,7 @@ def scrape_card(card_id):
         official_img_url = IMAGE_URL_TEMPLATE.format(card_id)
         final_image_url = upload_image_to_cloudinary(official_img_url, card_id)
 
-        print(f"   ✅ Scraped New: {card_id}")
+        print(f"   ✅ Scraped: {card_id}")
 
         return {
             "cardNo": card_id,
@@ -143,19 +158,47 @@ def scrape_card(card_id):
         return None
 
 def save_db(db):
-    """Safely saves the dictionary as a list to JSON"""
     if len(db) > 0:
-        # Convert Dictionary back to List for JSON format
         data_list = list(db.values())
         print(f"   💾 Checkpoint: Saving {len(data_list)} total cards...")
         with open(JSON_FILE, 'w', encoding='utf-8') as f:
             json.dump(data_list, f, indent=2, ensure_ascii=False)
 
-def run_update():
-    # 1. LOAD EXISTING INTO MASTER DICTIONARY
-    # We use a Dict { 'ST01-001': {...} } to prevent duplicates and allow updates
-    master_db = {}
+def clean_database(db):
+    """
+    Removes entries that are missing critical info (Name or ID).
+    This fixes corrupted records from failed scrapes.
+    """
+    print("🧹 Cleaning database integrity...")
+    initial_count = len(db)
+    clean_db = {}
     
+    for key, card in db.items():
+        # Check if valid object
+        if not isinstance(card, dict): continue
+        
+        # CRITICAL CHECKS
+        # 1. Must have an ID
+        if not card.get('cardNo'): continue
+        # 2. Must have a Name
+        if not card.get('name'): continue
+        # 3. Name should not be empty string
+        if len(card['name'].strip()) == 0: continue
+            
+        clean_db[key] = card
+        
+    removed = initial_count - len(clean_db)
+    if removed > 0:
+        print(f"   🗑️ Removed {removed} empty/corrupted records.")
+        # Force save immediately to purify the file
+        save_db(clean_db)
+    else:
+        print("   ✨ Database is clean.")
+        
+    return clean_db
+
+def run_update():
+    master_db = {}
     if os.path.exists(JSON_FILE):
         print(f"📂 Loading existing {JSON_FILE}...")
         try:
@@ -163,13 +206,15 @@ def run_update():
                 data_list = json.load(f)
                 for c in data_list:
                     master_db[c['cardNo']] = c
-            print(f"   Loaded {len(master_db)} existing cards.")
         except:
             print("   ⚠️ Error reading existing JSON. Starting fresh.")
     
+    # --- CLEANUP STEP ---
+    master_db = clean_database(master_db)
+
     sets = discover_sets()
     
-    print(f"\n--- STARTING MERGE SCRAPE ---")
+    print(f"\n--- STARTING SMART SCRAPE ---")
     
     for set_info in sets:
         code = set_info['code']
@@ -177,7 +222,7 @@ def run_update():
         print(f"\nProcessing Set: {code}...")
         
         miss_streak = 0
-        max_misses = 2 
+        max_misses = 3 # Stop set after 3 consecutive failures
         
         for i in range(1, limit + 1):
             card_id = f"{code}-{i:03d}"
@@ -186,43 +231,38 @@ def run_update():
             if card_id in master_db:
                 card = master_db[card_id]
                 
-                # Check Image
-                current_img = card.get('image', '')
-                is_cloudinary = 'cloudinary.com' in current_img
+                # REPAIR CHECK
+                if not RATE_LIMIT_HIT:
+                    current_img = card.get('image', '')
+                    is_cloudinary = 'cloudinary.com' in current_img
+                    
+                    if not is_cloudinary:
+                        print(f"   🔧 Repairing Image for {card_id}...")
+                        official_url = IMAGE_URL_TEMPLATE.format(card_id)
+                        new_cloud_url = upload_image_to_cloudinary(official_url, card_id)
+                        
+                        card['image'] = new_cloud_url
+                        if 'metadata' in card and isinstance(card['metadata'], str):
+                            try:
+                                meta_obj = json.loads(card['metadata'])
+                                meta_obj['image_high_res'] = new_cloud_url
+                                card['metadata'] = json.dumps(meta_obj)
+                            except: pass
+                        
+                        master_db[card_id] = card
                 
-                if is_cloudinary:
-                    # Perfect. Move on.
-                    miss_streak = 0 
-                    continue
-                else:
-                    # Needs Repair
-                    print(f"   🔧 Repairing Image for {card_id}...")
-                    official_url = IMAGE_URL_TEMPLATE.format(card_id)
-                    new_cloud_url = upload_image_to_cloudinary(official_url, card_id)
-                    
-                    # Update Memory
-                    card['image'] = new_cloud_url
-                    if 'metadata' in card and isinstance(card['metadata'], str):
-                        try:
-                            meta_obj = json.loads(card['metadata'])
-                            meta_obj['image_high_res'] = new_cloud_url
-                            card['metadata'] = json.dumps(meta_obj)
-                        except: pass
-                    
-                    master_db[card_id] = card
-                    miss_streak = 0
-                    continue
+                miss_streak = 0
+                continue
 
             # --- CHECK STREAK ---
             if miss_streak >= max_misses:
-                print(f"   Stopping {code} at {i-1} (End of Set Detected)")
+                print(f"   Stopping {code} at {i-1} (3 Empty Scrapes Detected)")
                 break
 
             # --- SCRAPE NEW ---
             card_data = scrape_card(card_id)
             
             if card_data:
-                # Add to Master DB (Safe Merge)
                 master_db[card_id] = card_data
                 miss_streak = 0
             else:
@@ -232,8 +272,7 @@ def run_update():
             
             time.sleep(0.1) 
         
-        # --- CHECKPOINT SAVE ---
-        # Save the ENTIRE Master DB (Old + New)
+        # SAVE AFTER EVERY SET
         save_db(master_db)
 
     print("\n✅ Update Complete.")
