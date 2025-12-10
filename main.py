@@ -27,18 +27,13 @@ HEADERS = {
 }
 
 def upload_image_to_cloudinary(image_url, public_id):
-    """
-    Uploads image to Cloudinary and returns the CLOUDINARY URL.
-    """
     try:
-        # 1. Check if already exists to save bandwidth (Optional)
         try:
             res = cloudinary.api.resource(f"gundam_cards/{public_id}")
             return res['secure_url'] 
         except cloudinary.exceptions.NotFound:
             pass 
 
-        # 2. Upload
         result = cloudinary.uploader.upload(
             image_url,
             public_id=f"gundam_cards/{public_id}",
@@ -48,7 +43,7 @@ def upload_image_to_cloudinary(image_url, public_id):
         return result['secure_url'] 
     except Exception as e:
         print(f"   ❌ Cloudinary Error ({public_id}): {e}")
-        return image_url # Fallback to official URL if upload fails
+        return image_url 
 
 def discover_sets():
     print("🔍 Probing for sets...")
@@ -115,11 +110,10 @@ def scrape_card(card_id):
         traits_tag = soup.select_one(".characteristic")
         traits = traits_tag.text.strip() if traits_tag else ""
 
-        # --- IMAGE UPLOAD ---
         official_img_url = IMAGE_URL_TEMPLATE.format(card_id)
         final_image_url = upload_image_to_cloudinary(official_img_url, card_id)
 
-        print(f"   ✅ Scraped & Uploaded: {card_id}")
+        print(f"   ✅ Scraped New: {card_id}")
 
         return {
             "cardNo": card_id,
@@ -148,23 +142,34 @@ def scrape_card(card_id):
         print(f"   ❌ Error {card_id}: {e}")
         return None
 
+def save_db(db):
+    """Safely saves the dictionary as a list to JSON"""
+    if len(db) > 0:
+        # Convert Dictionary back to List for JSON format
+        data_list = list(db.values())
+        print(f"   💾 Checkpoint: Saving {len(data_list)} total cards...")
+        with open(JSON_FILE, 'w', encoding='utf-8') as f:
+            json.dump(data_list, f, indent=2, ensure_ascii=False)
+
 def run_update():
-    # 1. LOAD EXISTING
-    existing_cards = {}
+    # 1. LOAD EXISTING INTO MASTER DICTIONARY
+    # We use a Dict { 'ST01-001': {...} } to prevent duplicates and allow updates
+    master_db = {}
+    
     if os.path.exists(JSON_FILE):
         print(f"📂 Loading existing {JSON_FILE}...")
         try:
             with open(JSON_FILE, 'r', encoding='utf-8') as f:
-                data = json.load(f)
-                for c in data:
-                    existing_cards[c['cardNo']] = c
+                data_list = json.load(f)
+                for c in data_list:
+                    master_db[c['cardNo']] = c
+            print(f"   Loaded {len(master_db)} existing cards.")
         except:
             print("   ⚠️ Error reading existing JSON. Starting fresh.")
     
     sets = discover_sets()
-    final_list = []
     
-    print(f"\n--- STARTING SCRAPE (WITH IMAGE REPAIR) ---")
+    print(f"\n--- STARTING MERGE SCRAPE ---")
     
     for set_info in sets:
         code = set_info['code']
@@ -177,53 +182,48 @@ def run_update():
         for i in range(1, limit + 1):
             card_id = f"{code}-{i:03d}"
             
-            # --- INTELLIGENT CHECK ---
-            if card_id in existing_cards:
-                card = existing_cards[card_id]
+            # --- CHECK EXISTING ---
+            if card_id in master_db:
+                card = master_db[card_id]
                 
-                # Check for Cloudinary presence
+                # Check Image
                 current_img = card.get('image', '')
                 is_cloudinary = 'cloudinary.com' in current_img
                 
                 if is_cloudinary:
-                    # Data + Image Good. Skip completely.
-                    final_list.append(card)
+                    # Perfect. Move on.
                     miss_streak = 0 
                     continue
                 else:
-                    # Data exists, but image is missing/wrong.
-                    # ONLY upload image, do NOT re-scrape stats.
+                    # Needs Repair
                     print(f"   🔧 Repairing Image for {card_id}...")
-                    
                     official_url = IMAGE_URL_TEMPLATE.format(card_id)
                     new_cloud_url = upload_image_to_cloudinary(official_url, card_id)
                     
-                    # Update local record immediately
+                    # Update Memory
                     card['image'] = new_cloud_url
-                    
-                    # Also update image_high_res in metadata if it exists
                     if 'metadata' in card and isinstance(card['metadata'], str):
                         try:
                             meta_obj = json.loads(card['metadata'])
                             meta_obj['image_high_res'] = new_cloud_url
                             card['metadata'] = json.dumps(meta_obj)
                         except: pass
-
-                    final_list.append(card)
+                    
+                    master_db[card_id] = card
                     miss_streak = 0
-                    continue # Skip to next card
+                    continue
 
             # --- CHECK STREAK ---
             if miss_streak >= max_misses:
                 print(f"   Stopping {code} at {i-1} (End of Set Detected)")
                 break
 
-            # --- FULL SCRAPE (New Card) ---
+            # --- SCRAPE NEW ---
             card_data = scrape_card(card_id)
             
             if card_data:
-                final_list.append(card_data)
-                existing_cards[card_id] = card_data 
+                # Add to Master DB (Safe Merge)
+                master_db[card_id] = card_data
                 miss_streak = 0
             else:
                 miss_streak += 1
@@ -231,14 +231,12 @@ def run_update():
                     print(f"   . {card_id} not found")
             
             time.sleep(0.1) 
+        
+        # --- CHECKPOINT SAVE ---
+        # Save the ENTIRE Master DB (Old + New)
+        save_db(master_db)
 
-    if len(final_list) > 0:
-        print(f"\nSaving {len(final_list)} cards to {JSON_FILE}...")
-        with open(JSON_FILE, 'w', encoding='utf-8') as f:
-            json.dump(final_list, f, indent=2, ensure_ascii=False)
-        print("Done.")
-    else:
-        print("❌ No cards found.")
+    print("\n✅ Update Complete.")
 
 if __name__ == "__main__":
     run_update()
