@@ -12,7 +12,7 @@ import cloudinary.api
 import re
 
 # --- CONFIGURATION ---
-FULL_CHECK = True  # True = Audit all cards & update structure. False = Only find new cards.
+FULL_CHECK = False  # True = Audit all cards & update structure. False = Only find new cards.
 
 DETAIL_URL_TEMPLATE = "https://www.gundam-gcg.com/en/cards/detail.php?detailSearch={}"
 IMAGE_URL_TEMPLATE = "https://www.gundam-gcg.com/en/images/cards/card/{}.webp?251120"
@@ -298,3 +298,4 @@ def run_update():
 
 if __name__ == "__main__":
     run_update()
+
