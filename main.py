@@ -34,12 +34,6 @@ def upload_image_to_cloudinary(image_url, public_id):
     if RATE_LIMIT_HIT: return image_url
 
     try:
-        # Optional: Check existence (Consumes Admin API credit)
-        # try:
-        #     res = cloudinary.api.resource(f"gundam_cards/{public_id}")
-        #     return res['secure_url'] 
-        # except: pass 
-
         result = cloudinary.uploader.upload(
             image_url,
             public_id=f"gundam_cards/{public_id}",
@@ -91,27 +85,37 @@ def discover_sets():
         return [{"code": "ST01", "limit": 25}, {"code": "GD01", "limit": 105}, {"code": "GD02", "limit": 105}]
     return found_sets
 
-def scrape_card(card_id):
+def scrape_card(card_id, existing_card=None):
+    """
+    Scrapes data. 
+    If existing_card is provided and has a valid image, we SKIP the image upload 
+    to preserve bandwidth/API limits, but we still refresh all text data.
+    """
     url = DETAIL_URL_TEMPLATE.format(card_id)
     try:
         resp = requests.get(url, headers=HEADERS, timeout=5)
-        # 1. Validation: 200 OK and NOT a redirect
         if resp.status_code != 200 or "cardlist" in resp.url: return None 
         
         soup = BeautifulSoup(resp.content, "html.parser")
         
-        # 2. Validation: Must have a Name
         name_tag = soup.select_one(".cardName, h1")
         if not name_tag: return None
         name = name_tag.text.strip()
-        if not name: return None # Empty name is invalid
+        if not name: return None
 
-        stats = {"level": "-", "cost": "-", "hp": "-", "ap": "-", "rarity": "-", "color": "N/A", "type": "UNIT"}
+        # --- Data Extraction ---
+        stats = {
+            "level": "-", "cost": "-", "hp": "-", "ap": "-", "rarity": "-", 
+            "color": "N/A", "type": "UNIT", "zone": "-", "trait": "-", 
+            "link": "-", "source": "-", "release": "-"
+        }
+
         for dt in soup.find_all("dt"):
             label = dt.text.strip().lower()
             val_tag = dt.find_next_sibling("dd")
             if not val_tag: continue
             val = val_tag.text.strip()
+
             if "lv" in label: stats["level"] = val
             elif "cost" in label: stats["cost"] = val
             elif "hp" in label: stats["hp"] = val
@@ -119,18 +123,41 @@ def scrape_card(card_id):
             elif "rarity" in label: stats["rarity"] = val
             elif "color" in label: stats["color"] = val
             elif "type" in label: stats["type"] = val
+            elif "zone" in label: stats["zone"] = val
+            elif "trait" in label: stats["trait"] = val
+            elif "link" in label: stats["link"] = val
+            elif "source" in label: stats["source"] = val
+            elif "where" in label: stats["release"] = val
 
-        text_tag = soup.select_one(".text")
-        effect_text = text_tag.text.strip().replace("<br>", "\n") if text_tag else ""
-        traits_tag = soup.select_one(".characteristic")
-        traits = traits_tag.text.strip() if traits_tag else ""
+        block_icon_tag = soup.select_one(".blockIcon")
+        block_icon = block_icon_tag.text.strip() if block_icon_tag else "-"
 
-        official_img_url = IMAGE_URL_TEMPLATE.format(card_id)
-        final_image_url = upload_image_to_cloudinary(official_img_url, card_id)
+        effect_tag = soup.select_one(".cardDataRow.overview .dataTxt")
+        effect_text = effect_tag.text.strip().replace("<br>", "\n") if effect_tag else ""
+        
+        traits = stats["trait"]
 
-        print(f"   ✅ Scraped: {card_id}")
+        # --- SMART IMAGE HANDLING ---
+        # Logic: If we have an existing card with a Cloudinary URL, keep it.
+        # Otherwise, upload.
+        final_image_url = ""
+        
+        has_valid_existing_image = (
+            existing_card 
+            and "image" in existing_card 
+            and "cloudinary.com" in existing_card["image"]
+        )
 
-        return {
+        if has_valid_existing_image:
+            final_image_url = existing_card["image"]
+            # print(f"   Using existing image for {card_id}") # Optional debug
+        else:
+            # Only upload if we don't have it or it's not hosted by us
+            official_img_url = IMAGE_URL_TEMPLATE.format(card_id)
+            final_image_url = upload_image_to_cloudinary(official_img_url, card_id)
+
+        # Construct new object
+        new_data = {
             "cardNo": card_id,
             "originalId": card_id,
             "name": name,
@@ -149,10 +176,17 @@ def scrape_card(card_id):
                 "atk": stats["ap"],
                 "trait": traits,
                 "type": stats["type"],
+                "zone": stats["zone"],
+                "link": stats["link"],
+                "block_icon": block_icon,
+                "source_title": stats["source"],
+                "release_pack": stats["release"],
                 "variants": [] 
-            }),
+            }, sort_keys=True), # Sort keys ensures consistent string comparison
             "last_updated": str(datetime.datetime.now())
         }
+        return new_data
+
     except Exception as e:
         print(f"   ❌ Error {card_id}: {e}")
         return None
@@ -165,37 +199,40 @@ def save_db(db):
             json.dump(data_list, f, indent=2, ensure_ascii=False)
 
 def clean_database(db):
-    """
-    Removes entries that are missing critical info (Name or ID).
-    This fixes corrupted records from failed scrapes.
-    """
     print("🧹 Cleaning database integrity...")
     initial_count = len(db)
     clean_db = {}
-    
     for key, card in db.items():
-        # Check if valid object
         if not isinstance(card, dict): continue
-        
-        # CRITICAL CHECKS
-        # 1. Must have an ID
         if not card.get('cardNo'): continue
-        # 2. Must have a Name
         if not card.get('name'): continue
-        # 3. Name should not be empty string
         if len(card['name'].strip()) == 0: continue
-            
         clean_db[key] = card
-        
+    
     removed = initial_count - len(clean_db)
     if removed > 0:
         print(f"   🗑️ Removed {removed} empty/corrupted records.")
-        # Force save immediately to purify the file
         save_db(clean_db)
     else:
         print("   ✨ Database is clean.")
-        
     return clean_db
+
+def has_changed(old, new):
+    """
+    Compares two card objects excluding timestamp fields.
+    Returns True if meaningful data changed.
+    """
+    if not old: return True
+    
+    o = old.copy()
+    n = new.copy()
+    
+    # Remove volatile fields
+    o.pop('last_updated', None)
+    n.pop('last_updated', None)
+    
+    # Compare
+    return o != n
 
 def run_update():
     master_db = {}
@@ -209,12 +246,10 @@ def run_update():
         except:
             print("   ⚠️ Error reading existing JSON. Starting fresh.")
     
-    # --- CLEANUP STEP ---
     master_db = clean_database(master_db)
-
     sets = discover_sets()
     
-    print(f"\n--- STARTING SMART SCRAPE ---")
+    print(f"\n--- STARTING AUDIT & SCRAPE ---")
     
     for set_info in sets:
         code = set_info['code']
@@ -222,48 +257,31 @@ def run_update():
         print(f"\nProcessing Set: {code}...")
         
         miss_streak = 0
-        max_misses = 3 # Stop set after 3 consecutive failures
+        max_misses = 3
         
         for i in range(1, limit + 1):
             card_id = f"{code}-{i:03d}"
             
-            # --- CHECK EXISTING ---
-            if card_id in master_db:
-                card = master_db[card_id]
-                
-                # REPAIR CHECK
-                if not RATE_LIMIT_HIT:
-                    current_img = card.get('image', '')
-                    is_cloudinary = 'cloudinary.com' in current_img
-                    
-                    if not is_cloudinary:
-                        print(f"   🔧 Repairing Image for {card_id}...")
-                        official_url = IMAGE_URL_TEMPLATE.format(card_id)
-                        new_cloud_url = upload_image_to_cloudinary(official_url, card_id)
-                        
-                        card['image'] = new_cloud_url
-                        if 'metadata' in card and isinstance(card['metadata'], str):
-                            try:
-                                meta_obj = json.loads(card['metadata'])
-                                meta_obj['image_high_res'] = new_cloud_url
-                                card['metadata'] = json.dumps(meta_obj)
-                            except: pass
-                        
-                        master_db[card_id] = card
-                
-                miss_streak = 0
-                continue
-
-            # --- CHECK STREAK ---
-            if miss_streak >= max_misses:
-                print(f"   Stopping {code} at {i-1} (3 Empty Scrapes Detected)")
-                break
-
-            # --- SCRAPE NEW ---
-            card_data = scrape_card(card_id)
+            # Retrieve existing data (if any)
+            existing_card = master_db.get(card_id)
             
-            if card_data:
-                master_db[card_id] = card_data
+            # Scrape FRESH data, passing existing card for image logic
+            new_card_data = scrape_card(card_id, existing_card=existing_card)
+            
+            if new_card_data:
+                # Check for differences
+                if has_changed(existing_card, new_card_data):
+                    if existing_card:
+                        print(f"   📝 UPDATE detected for {card_id}")
+                    else:
+                        print(f"   ✅ NEW card found: {card_id}")
+                        
+                    master_db[card_id] = new_card_data
+                else:
+                    # Optional: Print a dot to show aliveness without spamming
+                    # print(".", end="", flush=True)
+                    pass
+
                 miss_streak = 0
             else:
                 miss_streak += 1
@@ -272,11 +290,9 @@ def run_update():
             
             time.sleep(0.1) 
         
-        # SAVE AFTER EVERY SET
         save_db(master_db)
 
     print("\n✅ Update Complete.")
 
 if __name__ == "__main__":
     run_update()
-
