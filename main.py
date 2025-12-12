@@ -11,13 +11,14 @@ import cloudinary.api
 import re
 
 # --- CONFIGURATION ---
-FULL_CHECK = True  # True = Audit all cards & update structure. False = Only find new cards.
+FULL_CHECK = True  # True = Audit all cards. False = Only find new cards.
 
+# URL Templates
 DETAIL_URL_TEMPLATE = "https://www.gundam-gcg.com/en/cards/detail.php?detailSearch={}"
 IMAGE_URL_TEMPLATE = "https://www.gundam-gcg.com/en/images/cards/card/{}.webp?251120"
 JSON_FILE = "cards.json"
 
-# Cloudinary Setup (Assumes environment variables are set)
+# Cloudinary Setup
 cloudinary.config(
     cloud_name = os.getenv('CLOUDINARY_CLOUD_NAME'),
     api_key = os.getenv('CLOUDINARY_API_KEY'),
@@ -32,14 +33,23 @@ HEADERS = {
 RATE_LIMIT_HIT = False
 
 def safe_int(val):
-    """Converts string to int, returns 0 if invalid. Handles non-digit characters."""
+    """
+    Architectural Enforcer: Ensures DB columns designed for Integers
+    never receive garbage strings. Handles '+1', 'HP: 500', etc.
+    """
+    if not val: return 0
     try:
-        # Remove non-digits (like 'HP: 4000' -> '4000') before converting
-        return int(re.sub(r'\D', '', val)) 
+        # 1. Remove non-numeric characters (except minus sign for negative modifiers if any)
+        clean_val = re.sub(r'[^\d-]', '', str(val))
+        if not clean_val: return 0
+        return int(clean_val)
     except:
         return 0
 
 def upload_image_to_cloudinary(image_url, public_id):
+    """
+    Optimizes asset delivery by shifting hosting to Cloudinary CDN.
+    """
     global RATE_LIMIT_HIT
     if RATE_LIMIT_HIT: return image_url
 
@@ -54,16 +64,19 @@ def upload_image_to_cloudinary(image_url, public_id):
     except Exception as e:
         error_msg = str(e)
         if "420" in error_msg or "Rate Limit" in error_msg:
-            print(f"    🛑 RATE LIMIT REACHED. Switching to text-only mode.")
+            print(f"    🛑 RATE LIMIT REACHED. Switching to pass-through mode.")
             RATE_LIMIT_HIT = True
-        # If upload fails for any reason, return the original URL as a fallback
+        # Fail gracefully: return original URL if upload fails
         return image_url
 
 def discover_sets():
+    """
+    Dynamically probes the endpoint to discover active card sets.
+    """
     print("🔍 Probing for sets...")
     found_sets = []
     prefixes = ["ST", "GD", "PR", "UT"]
-    PROBE_TIMEOUT = 5 # Set explicit timeout for connection attempt
+    PROBE_TIMEOUT = 5
     
     for prefix in prefixes:
         print(f"    Checking {prefix} series...", end="")
@@ -90,14 +103,13 @@ def discover_sets():
                 pass
 
             if exists:
-                # Use a reliable limit for deep audits
                 limit = 135 if prefix == "GD" else 35 
                 found_sets.append({"code": set_code, "limit": limit})
                 set_miss_streak = 0
             else:
                 set_miss_streak += 1
                 if set_miss_streak >= 2: 
-                    break  # Stop if two consecutive set probes fail
+                    break 
         print(" Done.")
             
     if not found_sets:
@@ -108,7 +120,6 @@ def discover_sets():
 def scrape_card(card_id, existing_card=None):
     url = DETAIL_URL_TEMPLATE.format(card_id)
     try:
-        # Use a defined timeout for individual scraping
         resp = requests.get(url, headers=HEADERS, timeout=10) 
         
         if resp.status_code != 200 or "cardlist" in resp.url: return None
@@ -121,8 +132,9 @@ def scrape_card(card_id, existing_card=None):
         if not name: return None
 
         # --- Data Extraction ---
+        # We default to harmless values so DB insertion doesn't fail
         raw_stats = {
-            "level": "-", "cost": "-", "hp": "-", "ap": "-", "rarity": "-", 
+            "level": "0", "cost": "0", "hp": "0", "ap": "0", "rarity": "-", 
             "color": "N/A", "type": "UNIT", "zone": "-", "trait": "-", 
             "link": "-", "source": "-", "release": "-"
         }
@@ -147,32 +159,30 @@ def scrape_card(card_id, existing_card=None):
             elif "where" in label: raw_stats["release"] = val
 
         block_icon_tag = soup.select_one(".blockIcon")
-        block_icon = block_icon_tag.text.strip() if block_icon_tag else "-"
+        block_icon = safe_int(block_icon_tag.text.strip()) if block_icon_tag else 0
 
         effect_tag = soup.select_one(".cardDataRow.overview .dataTxt")
         effect_text = effect_tag.text.strip().replace("<br>", "\n") if effect_tag else ""
         
         # --- SMART IMAGE HANDLING ---
         final_image_url = ""
-        has_valid_existing_image = (
+        # Check if we already have a Cloudinary URL to avoid re-uploading
+        has_valid_existing = (
             existing_card 
             and "image_url" in existing_card 
             and "cloudinary.com" in existing_card["image_url"]
         )
 
-        if has_valid_existing_image:
+        if has_valid_existing:
             final_image_url = existing_card["image_url"]
         else:
-            if existing_card and "image" in existing_card and "cloudinary.com" in existing_card["image"]:
-                 final_image_url = existing_card["image"]
-            else:
-                official_img_url = IMAGE_URL_TEMPLATE.format(card_id)
-                final_image_url = upload_image_to_cloudinary(official_img_url, card_id)
+            official_img_url = IMAGE_URL_TEMPLATE.format(card_id)
+            final_image_url = upload_image_to_cloudinary(official_img_url, card_id)
 
-        # --- FLATTENED OUTPUT FOR WATERMELON DB (CRITICAL FIX) ---
+        # --- THE FLATTENED WATERMELON DB SCHEMA ---
         return {
-            "id": card_id,           # REQUIRED: WatermelonDB Primary Key
-            "card_no": card_id,       # User facing ID
+            "id": card_id,               # Primary Key
+            "card_no": card_id,          # Indexed search field
             "name": name,
             "series": card_id.split("-")[0],
             "cost": safe_int(raw_stats["cost"]),
@@ -182,15 +192,16 @@ def scrape_card(card_id, existing_card=None):
             "color": raw_stats["color"],
             "rarity": raw_stats["rarity"],
             "type": raw_stats["type"],
-            "block_icon": safe_int(block_icon), 
-            "trait": raw_stats["trait"],       
+            "block_icon": block_icon, 
+            "trait": raw_stats["trait"],        
             "zone": raw_stats["zone"],
             "link": raw_stats["link"],
             "effect_text": effect_text,
             "source_title": raw_stats["source"],
-            "image_url": final_image_url, # Key corrected to image_url
+            "image_url": final_image_url,
             "release_pack": raw_stats["release"],
-            "last_updated": str(datetime.datetime.now())
+            # Unix Timestamp for high-performance sorting/syncing
+            "last_updated": int(time.time()) 
         }
 
     except (Timeout, ConnectionError, RequestException) as e:
@@ -212,8 +223,8 @@ def clean_database(db):
     clean_db = {}
     for key, card in db.items():
         if not isinstance(card, dict): continue
-        # Use 'id' for the key now, supporting old keys for loading
-        key = card.get('id') or card.get('cardNo') 
+        # Normalize key lookup
+        key = card.get('id') or card.get('cardNo') or card.get('card_no')
         if not key: continue
         clean_db[key] = card
     return clean_db
@@ -222,6 +233,7 @@ def has_changed(old, new):
     if not old: return True
     o = old.copy()
     n = new.copy()
+    # Ignore timestamp when comparing content changes
     o.pop('last_updated', None)
     n.pop('last_updated', None)
     
@@ -235,7 +247,7 @@ def run_update():
             with open(JSON_FILE, 'r', encoding='utf-8') as f:
                 data_list = json.load(f)
                 for c in data_list:
-                    # Look for new 'id' first, then fall back to legacy 'cardNo'
+                    # Support legacy keys during migration
                     key = c.get('id', c.get('cardNo'))
                     if key: master_db[key] = c
         except:
@@ -243,7 +255,6 @@ def run_update():
     
     master_db = clean_database(master_db)
     
-    # Check for missing environment variables at initialization
     if not all([os.getenv('CLOUDINARY_CLOUD_NAME'), os.getenv('CLOUDINARY_API_KEY'), os.getenv('CLOUDINARY_API_SECRET')]):
         print("\n    🛑 WARNING: Cloudinary environment variables are missing. Image uploads will be skipped.")
 
@@ -263,7 +274,6 @@ def run_update():
         for i in range(1, limit + 1):
             card_id = f"{code}-{i:03d}"
             
-            # Skip if incremental mode AND card exists
             if not FULL_CHECK and card_id in master_db:
                 miss_streak = 0
                 continue
@@ -274,7 +284,7 @@ def run_update():
             if new_card_data:
                 if has_changed(existing_card, new_card_data):
                     status = "UPDATE" if existing_card else "NEW"
-                    print(f"    📝 {status}: {card_id}")    
+                    print(f"    📝 {status}: {card_id}")     
                     master_db[card_id] = new_card_data
                 miss_streak = 0
             else:
@@ -282,13 +292,12 @@ def run_update():
                 if miss_streak <= max_misses:
                     print(f"    . {card_id} not found (Miss {miss_streak}/{max_misses})")
             
-            time.sleep(0.1) # Respectful delay
+            time.sleep(0.1) 
             
-            # Save checkpoint every 200 successful scrapes
             if i % 200 == 0:
                  save_db(master_db) 
                  
-        save_db(master_db) # Final save after each set
+        save_db(master_db)
 
     print("\n✅ Update Complete.")
 
