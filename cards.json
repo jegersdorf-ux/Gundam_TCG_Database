@@ -9,7 +9,7 @@
     "ap": 0,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -19,7 +19,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349526/gundam_cards/ST01-001.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520058
+    "last_updated": 1765630244
   },
   {
     "id": "ST01-002",
@@ -31,7 +31,7 @@
     "ap": 4,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -41,7 +41,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349527/gundam_cards/ST01-002.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520060
+    "last_updated": 1765630245
   },
   {
     "id": "ST01-003",
@@ -53,7 +53,7 @@
     "ap": 2,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -63,7 +63,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349529/gundam_cards/ST01-003.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520062
+    "last_updated": 1765630245
   },
   {
     "id": "ST01-004",
@@ -75,7 +75,7 @@
     "ap": 2,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -85,7 +85,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349531/gundam_cards/ST01-004.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520064
+    "last_updated": 1765630246
   },
   {
     "id": "ST01-005",
@@ -97,7 +97,7 @@
     "ap": 2,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -107,7 +107,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349533/gundam_cards/ST01-005.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520066
+    "last_updated": 1765630246
   },
   {
     "id": "ST01-006",
@@ -119,7 +119,7 @@
     "ap": 4,
     "level": 5,
     "color": "White",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -129,7 +129,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349535/gundam_cards/ST01-006.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520069
+    "last_updated": 1765630247
   },
   {
     "id": "ST01-007",
@@ -141,7 +141,7 @@
     "ap": 3,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -151,7 +151,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349537/gundam_cards/ST01-007.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520070
+    "last_updated": 1765630247
   },
   {
     "id": "ST01-008",
@@ -163,7 +163,7 @@
     "ap": 1,
     "level": 1,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -173,7 +173,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349538/gundam_cards/ST01-008.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520072
+    "last_updated": 1765630248
   },
   {
     "id": "ST01-009",
@@ -185,7 +185,7 @@
     "ap": 3,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -195,7 +195,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349540/gundam_cards/ST01-009.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520074
+    "last_updated": 1765630248
   },
   {
     "id": "ST01-010",
@@ -207,7 +207,7 @@
     "ap": 2,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team) (Newtype)",
@@ -217,7 +217,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349542/gundam_cards/ST01-010.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520076
+    "last_updated": 1765630249
   },
   {
     "id": "ST01-011",
@@ -229,7 +229,7 @@
     "ap": 1,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -239,7 +239,7 @@
     "source_title": "Yes, it can.",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349544/gundam_cards/ST01-011.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520078
+    "last_updated": 1765630249
   },
   {
     "id": "ST01-012",
@@ -251,7 +251,7 @@
     "ap": 0,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -261,7 +261,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349545/gundam_cards/ST01-012.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520080
+    "last_updated": 1765630250
   },
   {
     "id": "ST01-013",
@@ -273,7 +273,7 @@
     "ap": 1,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -283,7 +283,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349547/gundam_cards/ST01-013.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520084
+    "last_updated": 1765630250
   },
   {
     "id": "ST01-014",
@@ -295,7 +295,7 @@
     "ap": 0,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -305,7 +305,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349549/gundam_cards/ST01-014.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520085
+    "last_updated": 1765630251
   },
   {
     "id": "ST01-015",
@@ -317,7 +317,7 @@
     "ap": 0,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team) (Warship)",
@@ -327,7 +327,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349551/gundam_cards/ST01-015.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520087
+    "last_updated": 1765630251
   },
   {
     "id": "ST01-016",
@@ -339,7 +339,7 @@
     "ap": 0,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Academy) (Stronghold)",
@@ -349,7 +349,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349553/gundam_cards/ST01-016.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765520090
+    "last_updated": 1765630252
   },
   {
     "id": "ST02-001",
@@ -361,7 +361,7 @@
     "ap": 4,
     "level": 6,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -371,7 +371,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349602/gundam_cards/ST02-001.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520122
+    "last_updated": 1765630281
   },
   {
     "id": "ST02-002",
@@ -383,7 +383,7 @@
     "ap": 2,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -393,7 +393,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349604/gundam_cards/ST02-002.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520124
+    "last_updated": 1765630282
   },
   {
     "id": "ST02-003",
@@ -405,7 +405,7 @@
     "ap": 3,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -415,7 +415,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349605/gundam_cards/ST02-003.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520126
+    "last_updated": 1765630282
   },
   {
     "id": "ST02-004",
@@ -427,7 +427,7 @@
     "ap": 4,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -437,7 +437,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349607/gundam_cards/ST02-004.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520128
+    "last_updated": 1765630283
   },
   {
     "id": "ST02-005",
@@ -449,7 +449,7 @@
     "ap": 3,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Maganac Corps)",
@@ -459,7 +459,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349609/gundam_cards/ST02-005.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520131
+    "last_updated": 1765630283
   },
   {
     "id": "ST02-006",
@@ -471,7 +471,7 @@
     "ap": 4,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -481,7 +481,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349611/gundam_cards/ST02-006.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520133
+    "last_updated": 1765630284
   },
   {
     "id": "ST02-007",
@@ -493,7 +493,7 @@
     "ap": 2,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -503,7 +503,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349613/gundam_cards/ST02-007.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520135
+    "last_updated": 1765630284
   },
   {
     "id": "ST02-008",
@@ -515,7 +515,7 @@
     "ap": 2,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -525,7 +525,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349614/gundam_cards/ST02-008.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520137
+    "last_updated": 1765630285
   },
   {
     "id": "ST02-009",
@@ -537,7 +537,7 @@
     "ap": 1,
     "level": 1,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -547,7 +547,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349616/gundam_cards/ST02-009.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520140
+    "last_updated": 1765630285
   },
   {
     "id": "ST02-010",
@@ -559,7 +559,7 @@
     "ap": 2,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -569,7 +569,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349618/gundam_cards/ST02-010.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520142
+    "last_updated": 1765630286
   },
   {
     "id": "ST02-011",
@@ -581,7 +581,7 @@
     "ap": 2,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -591,7 +591,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349620/gundam_cards/ST02-011.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520144
+    "last_updated": 1765630286
   },
   {
     "id": "ST02-012",
@@ -603,7 +603,7 @@
     "ap": 1,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -613,7 +613,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349622/gundam_cards/ST02-012.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520148
+    "last_updated": 1765630287
   },
   {
     "id": "ST02-013",
@@ -625,7 +625,7 @@
     "ap": 1,
     "level": 0,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -635,7 +635,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349624/gundam_cards/ST02-013.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520149
+    "last_updated": 1765630287
   },
   {
     "id": "ST02-014",
@@ -647,7 +647,7 @@
     "ap": 0,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -657,7 +657,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349626/gundam_cards/ST02-014.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520151
+    "last_updated": 1765630288
   },
   {
     "id": "ST02-015",
@@ -669,7 +669,7 @@
     "ap": 0,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Academy) (Stronghold)",
@@ -679,7 +679,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349627/gundam_cards/ST02-015.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520153
+    "last_updated": 1765630289
   },
   {
     "id": "ST02-016",
@@ -691,7 +691,7 @@
     "ap": 0,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(OZ) (Stronghold)",
@@ -701,7 +701,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349629/gundam_cards/ST02-016.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765520155
+    "last_updated": 1765630289
   },
   {
     "id": "ST03-001",
@@ -713,7 +713,7 @@
     "ap": 5,
     "level": 6,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -723,7 +723,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349679/gundam_cards/ST03-001.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520188
+    "last_updated": 1765630319
   },
   {
     "id": "ST03-002",
@@ -735,7 +735,7 @@
     "ap": 3,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -745,7 +745,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349680/gundam_cards/ST03-002.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520190
+    "last_updated": 1765630320
   },
   {
     "id": "ST03-003",
@@ -757,7 +757,7 @@
     "ap": 3,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -767,7 +767,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349682/gundam_cards/ST03-003.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520193
+    "last_updated": 1765630321
   },
   {
     "id": "ST03-004",
@@ -779,7 +779,7 @@
     "ap": 2,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -789,7 +789,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349684/gundam_cards/ST03-004.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520196
+    "last_updated": 1765630321
   },
   {
     "id": "ST03-005",
@@ -801,7 +801,7 @@
     "ap": 1,
     "level": 1,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -811,7 +811,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349686/gundam_cards/ST03-005.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520198
+    "last_updated": 1765630322
   },
   {
     "id": "ST03-006",
@@ -823,7 +823,7 @@
     "ap": 3,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -833,7 +833,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349687/gundam_cards/ST03-006.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520199
+    "last_updated": 1765630322
   },
   {
     "id": "ST03-007",
@@ -845,7 +845,7 @@
     "ap": 1,
     "level": 1,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -855,7 +855,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349689/gundam_cards/ST03-007.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520202
+    "last_updated": 1765630323
   },
   {
     "id": "ST03-008",
@@ -867,7 +867,7 @@
     "ap": 1,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -877,7 +877,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349691/gundam_cards/ST03-008.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520204
+    "last_updated": 1765630323
   },
   {
     "id": "ST03-009",
@@ -889,7 +889,7 @@
     "ap": 0,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -899,7 +899,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349693/gundam_cards/ST03-009.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520206
+    "last_updated": 1765630324
   },
   {
     "id": "ST03-010",
@@ -911,7 +911,7 @@
     "ap": 2,
     "level": 6,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Neo Zeon) (Cyber-Newtype)",
@@ -921,7 +921,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349694/gundam_cards/ST03-010.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520208
+    "last_updated": 1765630324
   },
   {
     "id": "ST03-011",
@@ -933,7 +933,7 @@
     "ap": 1,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Zeon) (Newtype)",
@@ -943,7 +943,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349696/gundam_cards/ST03-011.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520210
+    "last_updated": 1765630325
   },
   {
     "id": "ST03-012",
@@ -955,7 +955,7 @@
     "ap": 1,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -965,7 +965,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349698/gundam_cards/ST03-012.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520212
+    "last_updated": 1765630325
   },
   {
     "id": "ST03-013",
@@ -977,7 +977,7 @@
     "ap": 0,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -987,7 +987,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349700/gundam_cards/ST03-013.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520214
+    "last_updated": 1765630326
   },
   {
     "id": "ST03-014",
@@ -999,7 +999,7 @@
     "ap": 0,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -1009,7 +1009,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349702/gundam_cards/ST03-014.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520216
+    "last_updated": 1765630326
   },
   {
     "id": "ST03-015",
@@ -1021,7 +1021,7 @@
     "ap": 0,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Neo Zeon) (Warship)",
@@ -1031,7 +1031,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349703/gundam_cards/ST03-015.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520218
+    "last_updated": 1765630327
   },
   {
     "id": "ST03-016",
@@ -1043,7 +1043,7 @@
     "ap": 0,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Zeon) (Warship)",
@@ -1053,7 +1053,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349705/gundam_cards/ST03-016.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765520220
+    "last_updated": 1765630328
   },
   {
     "id": "ST04-001",
@@ -1065,7 +1065,7 @@
     "ap": 4,
     "level": 5,
     "color": "White",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -1075,7 +1075,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349755/gundam_cards/ST04-001.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520252
+    "last_updated": 1765630358
   },
   {
     "id": "ST04-002",
@@ -1087,7 +1087,7 @@
     "ap": 3,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -1097,7 +1097,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349757/gundam_cards/ST04-002.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520255
+    "last_updated": 1765630358
   },
   {
     "id": "ST04-003",
@@ -1109,7 +1109,7 @@
     "ap": 2,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -1119,7 +1119,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349758/gundam_cards/ST04-003.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520257
+    "last_updated": 1765630359
   },
   {
     "id": "ST04-004",
@@ -1131,7 +1131,7 @@
     "ap": 1,
     "level": 1,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -1141,7 +1141,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349760/gundam_cards/ST04-004.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520259
+    "last_updated": 1765630359
   },
   {
     "id": "ST04-005",
@@ -1153,7 +1153,7 @@
     "ap": 3,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -1163,7 +1163,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349762/gundam_cards/ST04-005.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520261
+    "last_updated": 1765630360
   },
   {
     "id": "ST04-006",
@@ -1175,7 +1175,7 @@
     "ap": 0,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -1185,7 +1185,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349764/gundam_cards/ST04-006.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520264
+    "last_updated": 1765630360
   },
   {
     "id": "ST04-007",
@@ -1197,7 +1197,7 @@
     "ap": 3,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -1207,7 +1207,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349766/gundam_cards/ST04-007.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520266
+    "last_updated": 1765630361
   },
   {
     "id": "ST04-008",
@@ -1219,7 +1219,7 @@
     "ap": 2,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -1229,7 +1229,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349768/gundam_cards/ST04-008.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520268
+    "last_updated": 1765630361
   },
   {
     "id": "ST04-009",
@@ -1241,7 +1241,7 @@
     "ap": 3,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -1251,7 +1251,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349770/gundam_cards/ST04-009.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520270
+    "last_updated": 1765630362
   },
   {
     "id": "ST04-010",
@@ -1263,7 +1263,7 @@
     "ap": 2,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Earth Alliance) (Coordinator)",
@@ -1273,7 +1273,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349772/gundam_cards/ST04-010.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520271
+    "last_updated": 1765630362
   },
   {
     "id": "ST04-011",
@@ -1285,7 +1285,7 @@
     "ap": 1,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(ZAFT) (Coordinator)",
@@ -1295,7 +1295,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349774/gundam_cards/ST04-011.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520273
+    "last_updated": 1765630363
   },
   {
     "id": "ST04-012",
@@ -1307,7 +1307,7 @@
     "ap": 0,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -1317,7 +1317,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349776/gundam_cards/ST04-012.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520276
+    "last_updated": 1765630363
   },
   {
     "id": "ST04-013",
@@ -1329,7 +1329,7 @@
     "ap": 1,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -1339,7 +1339,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349778/gundam_cards/ST04-013.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520278
+    "last_updated": 1765630364
   },
   {
     "id": "ST04-014",
@@ -1351,7 +1351,7 @@
     "ap": 0,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(ZAFT) (Coordinator)",
@@ -1361,7 +1361,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349779/gundam_cards/ST04-014.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520281
+    "last_updated": 1765630364
   },
   {
     "id": "ST04-015",
@@ -1373,7 +1373,7 @@
     "ap": 0,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Earth Alliance) (Warship)",
@@ -1383,7 +1383,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349781/gundam_cards/ST04-015.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520283
+    "last_updated": 1765630365
   },
   {
     "id": "ST04-016",
@@ -1395,7 +1395,7 @@
     "ap": 0,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(ZAFT) (Warship)",
@@ -1405,7 +1405,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349783/gundam_cards/ST04-016.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765520284
+    "last_updated": 1765630365
   },
   {
     "id": "ST05-001",
@@ -1417,7 +1417,7 @@
     "ap": 4,
     "level": 6,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Tekkadan) (Gundam Frame)",
@@ -1427,7 +1427,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349834/gundam_cards/ST05-001.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520317
+    "last_updated": 1765630395
   },
   {
     "id": "ST05-002",
@@ -1439,7 +1439,7 @@
     "ap": 2,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Tekkadan) (Gundam Frame)",
@@ -1449,7 +1449,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349835/gundam_cards/ST05-002.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520319
+    "last_updated": 1765630396
   },
   {
     "id": "ST05-003",
@@ -1461,7 +1461,7 @@
     "ap": 0,
     "level": 1,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Tekkadan)",
@@ -1471,7 +1471,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349837/gundam_cards/ST05-003.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520321
+    "last_updated": 1765630396
   },
   {
     "id": "ST05-004",
@@ -1483,7 +1483,7 @@
     "ap": 2,
     "level": 2,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Tekkadan)",
@@ -1493,7 +1493,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349839/gundam_cards/ST05-004.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520323
+    "last_updated": 1765630397
   },
   {
     "id": "ST05-005",
@@ -1505,7 +1505,7 @@
     "ap": 3,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Tekkadan) (Gundam Frame)",
@@ -1515,7 +1515,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349841/gundam_cards/ST05-005.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520329
+    "last_updated": 1765630397
   },
   {
     "id": "ST05-006",
@@ -1527,7 +1527,7 @@
     "ap": 4,
     "level": 3,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Teiwaz)",
@@ -1537,7 +1537,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349842/gundam_cards/ST05-006.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520331
+    "last_updated": 1765630398
   },
   {
     "id": "ST05-007",
@@ -1549,7 +1549,7 @@
     "ap": 4,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -1559,7 +1559,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349844/gundam_cards/ST05-007.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520333
+    "last_updated": 1765630399
   },
   {
     "id": "ST05-008",
@@ -1571,7 +1571,7 @@
     "ap": 3,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -1581,7 +1581,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349846/gundam_cards/ST05-008.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520335
+    "last_updated": 1765630399
   },
   {
     "id": "ST05-009",
@@ -1593,7 +1593,7 @@
     "ap": 2,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -1603,7 +1603,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349848/gundam_cards/ST05-009.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520337
+    "last_updated": 1765630400
   },
   {
     "id": "ST05-010",
@@ -1615,7 +1615,7 @@
     "ap": 2,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Tekkadan) (Alaya-Vijnana)",
@@ -1625,7 +1625,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349849/gundam_cards/ST05-010.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520339
+    "last_updated": 1765630400
   },
   {
     "id": "ST05-011",
@@ -1637,7 +1637,7 @@
     "ap": 1,
     "level": 3,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Tekkadan) (Alaya-Vijnana)",
@@ -1647,7 +1647,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349851/gundam_cards/ST05-011.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520341
+    "last_updated": 1765630401
   },
   {
     "id": "ST05-012",
@@ -1659,7 +1659,7 @@
     "ap": 2,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -1669,7 +1669,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349853/gundam_cards/ST05-012.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520345
+    "last_updated": 1765630401
   },
   {
     "id": "ST05-013",
@@ -1681,7 +1681,7 @@
     "ap": 0,
     "level": 2,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -1691,7 +1691,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349855/gundam_cards/ST05-013.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520347
+    "last_updated": 1765630402
   },
   {
     "id": "ST05-014",
@@ -1703,7 +1703,7 @@
     "ap": 0,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -1713,7 +1713,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349857/gundam_cards/ST05-014.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520350
+    "last_updated": 1765630402
   },
   {
     "id": "ST05-015",
@@ -1725,7 +1725,7 @@
     "ap": 0,
     "level": 3,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Tekkadan) (Warship)",
@@ -1735,7 +1735,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349859/gundam_cards/ST05-015.webp",
     "release_pack": "Iron Bloom [ST05]",
-    "last_updated": 1765520352
+    "last_updated": 1765630403
   },
   {
     "id": "ST06-001",
@@ -1747,7 +1747,7 @@
     "ap": 4,
     "level": 5,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -1757,7 +1757,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349911/gundam_cards/ST06-001.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520386
+    "last_updated": 1765630434
   },
   {
     "id": "ST06-002",
@@ -1769,7 +1769,7 @@
     "ap": 4,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -1779,7 +1779,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349913/gundam_cards/ST06-002.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520388
+    "last_updated": 1765630434
   },
   {
     "id": "ST06-003",
@@ -1791,7 +1791,7 @@
     "ap": 2,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -1801,7 +1801,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349915/gundam_cards/ST06-003.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520389
+    "last_updated": 1765630435
   },
   {
     "id": "ST06-004",
@@ -1813,7 +1813,7 @@
     "ap": 2,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -1823,7 +1823,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349917/gundam_cards/ST06-004.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520391
+    "last_updated": 1765630435
   },
   {
     "id": "ST06-005",
@@ -1835,7 +1835,7 @@
     "ap": 4,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -1845,7 +1845,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349919/gundam_cards/ST06-005.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520393
+    "last_updated": 1765630436
   },
   {
     "id": "ST06-006",
@@ -1857,7 +1857,7 @@
     "ap": 3,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -1867,7 +1867,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349920/gundam_cards/ST06-006.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520395
+    "last_updated": 1765630437
   },
   {
     "id": "ST06-007",
@@ -1879,7 +1879,7 @@
     "ap": 3,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -1889,7 +1889,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349922/gundam_cards/ST06-007.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520397
+    "last_updated": 1765630437
   },
   {
     "id": "ST06-008",
@@ -1901,7 +1901,7 @@
     "ap": 3,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -1911,7 +1911,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349924/gundam_cards/ST06-008.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520398
+    "last_updated": 1765630438
   },
   {
     "id": "ST06-009",
@@ -1923,7 +1923,7 @@
     "ap": 2,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Clan) (Newtype)",
@@ -1933,7 +1933,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349926/gundam_cards/ST06-009.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520400
+    "last_updated": 1765630438
   },
   {
     "id": "ST06-010",
@@ -1945,7 +1945,7 @@
     "ap": 1,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Clan) (Newtype)",
@@ -1955,7 +1955,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349928/gundam_cards/ST06-010.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520403
+    "last_updated": 1765630439
   },
   {
     "id": "ST06-011",
@@ -1967,7 +1967,7 @@
     "ap": 1,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -1977,7 +1977,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349930/gundam_cards/ST06-011.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520405
+    "last_updated": 1765630439
   },
   {
     "id": "ST06-012",
@@ -1989,7 +1989,7 @@
     "ap": 0,
     "level": 1,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -1999,7 +1999,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349932/gundam_cards/ST06-012.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520407
+    "last_updated": 1765630440
   },
   {
     "id": "ST06-013",
@@ -2011,7 +2011,7 @@
     "ap": 1,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -2021,7 +2021,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349933/gundam_cards/ST06-013.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520409
+    "last_updated": 1765630440
   },
   {
     "id": "ST06-014",
@@ -2033,7 +2033,7 @@
     "ap": 0,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Clan) (Stronghold)",
@@ -2043,7 +2043,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349935/gundam_cards/ST06-014.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520411
+    "last_updated": 1765630441
   },
   {
     "id": "ST06-015",
@@ -2055,7 +2055,7 @@
     "ap": 0,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Clan) (Stronghold)",
@@ -2065,7 +2065,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349937/gundam_cards/ST06-015.webp",
     "release_pack": "Clan Unity [ST06]",
-    "last_updated": 1765520413
+    "last_updated": 1765630441
   },
   {
     "id": "GD01-001",
@@ -2077,7 +2077,7 @@
     "ap": 3,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -2087,7 +2087,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372570/gundam_cards/GD01-001.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521169
+    "last_updated": 1765631176
   },
   {
     "id": "GD01-002",
@@ -2099,7 +2099,7 @@
     "ap": 5,
     "level": 0,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Civilian)",
@@ -2109,7 +2109,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372572/gundam_cards/GD01-002.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521171
+    "last_updated": 1765631176
   },
   {
     "id": "GD01-003",
@@ -2121,7 +2121,7 @@
     "ap": 5,
     "level": 6,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2131,7 +2131,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372574/gundam_cards/GD01-003.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521173
+    "last_updated": 1765631177
   },
   {
     "id": "GD01-004",
@@ -2143,7 +2143,7 @@
     "ap": 2,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -2153,7 +2153,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372576/gundam_cards/GD01-004.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521175
+    "last_updated": 1765631177
   },
   {
     "id": "GD01-005",
@@ -2165,7 +2165,7 @@
     "ap": 4,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Civilian)",
@@ -2175,7 +2175,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372578/gundam_cards/GD01-005.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521177
+    "last_updated": 1765631178
   },
   {
     "id": "GD01-006",
@@ -2187,7 +2187,7 @@
     "ap": 4,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2197,7 +2197,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372580/gundam_cards/GD01-006.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521179
+    "last_updated": 1765631178
   },
   {
     "id": "GD01-007",
@@ -2209,7 +2209,7 @@
     "ap": 2,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -2219,7 +2219,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372582/gundam_cards/GD01-007.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521180
+    "last_updated": 1765631179
   },
   {
     "id": "GD01-008",
@@ -2231,7 +2231,7 @@
     "ap": 1,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -2241,7 +2241,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372584/gundam_cards/GD01-008.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521182
+    "last_updated": 1765631179
   },
   {
     "id": "GD01-009",
@@ -2253,7 +2253,7 @@
     "ap": 3,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -2263,7 +2263,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372586/gundam_cards/GD01-009.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521185
+    "last_updated": 1765631180
   },
   {
     "id": "GD01-010",
@@ -2275,7 +2275,7 @@
     "ap": 4,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2285,7 +2285,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372588/gundam_cards/GD01-010.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521187
+    "last_updated": 1765631180
   },
   {
     "id": "GD01-011",
@@ -2297,7 +2297,7 @@
     "ap": 2,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2307,7 +2307,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372590/gundam_cards/GD01-011.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521189
+    "last_updated": 1765631181
   },
   {
     "id": "GD01-012",
@@ -2319,7 +2319,7 @@
     "ap": 3,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -2329,7 +2329,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372592/gundam_cards/GD01-012.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521191
+    "last_updated": 1765631182
   },
   {
     "id": "GD01-013",
@@ -2341,7 +2341,7 @@
     "ap": 3,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -2351,7 +2351,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372594/gundam_cards/GD01-013.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521193
+    "last_updated": 1765631182
   },
   {
     "id": "GD01-014",
@@ -2363,7 +2363,7 @@
     "ap": 1,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -2373,7 +2373,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372596/gundam_cards/GD01-014.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521196
+    "last_updated": 1765631183
   },
   {
     "id": "GD01-015",
@@ -2385,7 +2385,7 @@
     "ap": 1,
     "level": 1,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2395,7 +2395,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372599/gundam_cards/GD01-015.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521197
+    "last_updated": 1765631183
   },
   {
     "id": "GD01-016",
@@ -2407,7 +2407,7 @@
     "ap": 2,
     "level": 0,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2417,7 +2417,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372601/gundam_cards/GD01-016.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521199
+    "last_updated": 1765631184
   },
   {
     "id": "GD01-017",
@@ -2429,7 +2429,7 @@
     "ap": 3,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2439,7 +2439,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372604/gundam_cards/GD01-017.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521201
+    "last_updated": 1765631184
   },
   {
     "id": "GD01-018",
@@ -2451,7 +2451,7 @@
     "ap": 4,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2461,7 +2461,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372606/gundam_cards/GD01-018.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521203
+    "last_updated": 1765631185
   },
   {
     "id": "GD01-019",
@@ -2473,7 +2473,7 @@
     "ap": 0,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2483,7 +2483,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372608/gundam_cards/GD01-019.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521205
+    "last_updated": 1765631185
   },
   {
     "id": "GD01-020",
@@ -2495,7 +2495,7 @@
     "ap": 3,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -2505,7 +2505,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372610/gundam_cards/GD01-020.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521207
+    "last_updated": 1765631186
   },
   {
     "id": "GD01-021",
@@ -2517,7 +2517,7 @@
     "ap": 1,
     "level": 1,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -2527,7 +2527,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372612/gundam_cards/GD01-021.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521209
+    "last_updated": 1765631186
   },
   {
     "id": "GD01-022",
@@ -2539,7 +2539,7 @@
     "ap": 2,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -2549,7 +2549,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372614/gundam_cards/GD01-022.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521211
+    "last_updated": 1765631187
   },
   {
     "id": "GD01-023",
@@ -2561,7 +2561,7 @@
     "ap": 4,
     "level": 0,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2571,7 +2571,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372616/gundam_cards/GD01-023.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521213
+    "last_updated": 1765631187
   },
   {
     "id": "GD01-024",
@@ -2583,7 +2583,7 @@
     "ap": 5,
     "level": 8,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(G Team)",
@@ -2593,7 +2593,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372618/gundam_cards/GD01-024.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521215
+    "last_updated": 1765631188
   },
   {
     "id": "GD01-025",
@@ -2605,7 +2605,7 @@
     "ap": 5,
     "level": 6,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -2615,7 +2615,7 @@
     "source_title": "Yes, it does.",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372620/gundam_cards/GD01-025.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521217
+    "last_updated": 1765631188
   },
   {
     "id": "GD01-026",
@@ -2627,7 +2627,7 @@
     "ap": 3,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2637,7 +2637,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372622/gundam_cards/GD01-026.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521219
+    "last_updated": 1765631189
   },
   {
     "id": "GD01-027",
@@ -2649,7 +2649,7 @@
     "ap": 5,
     "level": 7,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2659,7 +2659,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372625/gundam_cards/GD01-027.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521222
+    "last_updated": 1765631189
   },
   {
     "id": "GD01-028",
@@ -2671,7 +2671,7 @@
     "ap": 4,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -2681,7 +2681,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372627/gundam_cards/GD01-028.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521224
+    "last_updated": 1765631190
   },
   {
     "id": "GD01-029",
@@ -2693,7 +2693,7 @@
     "ap": 4,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -2703,7 +2703,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372629/gundam_cards/GD01-029.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521226
+    "last_updated": 1765631190
   },
   {
     "id": "GD01-030",
@@ -2715,7 +2715,7 @@
     "ap": 3,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2725,7 +2725,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372631/gundam_cards/GD01-030.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521228
+    "last_updated": 1765631191
   },
   {
     "id": "GD01-031",
@@ -2737,7 +2737,7 @@
     "ap": 4,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2747,7 +2747,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372633/gundam_cards/GD01-031.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521230
+    "last_updated": 1765631192
   },
   {
     "id": "GD01-032",
@@ -2759,7 +2759,7 @@
     "ap": 4,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2769,7 +2769,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372636/gundam_cards/GD01-032.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521232
+    "last_updated": 1765631192
   },
   {
     "id": "GD01-033",
@@ -2781,7 +2781,7 @@
     "ap": 4,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -2791,7 +2791,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372638/gundam_cards/GD01-033.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521234
+    "last_updated": 1765631193
   },
   {
     "id": "GD01-034",
@@ -2803,7 +2803,7 @@
     "ap": 3,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -2813,7 +2813,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372640/gundam_cards/GD01-034.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521236
+    "last_updated": 1765631193
   },
   {
     "id": "GD01-035",
@@ -2825,7 +2825,7 @@
     "ap": 2,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2835,7 +2835,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372642/gundam_cards/GD01-035.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521238
+    "last_updated": 1765631194
   },
   {
     "id": "GD01-036",
@@ -2847,7 +2847,7 @@
     "ap": 3,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2857,7 +2857,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372644/gundam_cards/GD01-036.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521240
+    "last_updated": 1765631194
   },
   {
     "id": "GD01-037",
@@ -2869,7 +2869,7 @@
     "ap": 2,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2879,7 +2879,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372646/gundam_cards/GD01-037.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521242
+    "last_updated": 1765631195
   },
   {
     "id": "GD01-038",
@@ -2891,7 +2891,7 @@
     "ap": 2,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2901,7 +2901,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372648/gundam_cards/GD01-038.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521244
+    "last_updated": 1765631195
   },
   {
     "id": "GD01-039",
@@ -2913,7 +2913,7 @@
     "ap": 1,
     "level": 1,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -2923,7 +2923,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372650/gundam_cards/GD01-039.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521245
+    "last_updated": 1765631196
   },
   {
     "id": "GD01-040",
@@ -2935,7 +2935,7 @@
     "ap": 4,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -2945,7 +2945,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372652/gundam_cards/GD01-040.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521248
+    "last_updated": 1765631196
   },
   {
     "id": "GD01-041",
@@ -2957,7 +2957,7 @@
     "ap": 4,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -2967,7 +2967,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372654/gundam_cards/GD01-041.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521250
+    "last_updated": 1765631197
   },
   {
     "id": "GD01-042",
@@ -2979,7 +2979,7 @@
     "ap": 2,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -2989,7 +2989,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372656/gundam_cards/GD01-042.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521252
+    "last_updated": 1765631197
   },
   {
     "id": "GD01-043",
@@ -3001,7 +3001,7 @@
     "ap": 2,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Maganac Corps)",
@@ -3011,7 +3011,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372658/gundam_cards/GD01-043.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521254
+    "last_updated": 1765631198
   },
   {
     "id": "GD01-044",
@@ -3023,7 +3023,7 @@
     "ap": 5,
     "level": 5,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -3033,7 +3033,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372660/gundam_cards/GD01-044.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521256
+    "last_updated": 1765631198
   },
   {
     "id": "GD01-045",
@@ -3045,7 +3045,7 @@
     "ap": 4,
     "level": 5,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3055,7 +3055,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372663/gundam_cards/GD01-045.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521258
+    "last_updated": 1765631199
   },
   {
     "id": "GD01-046",
@@ -3067,7 +3067,7 @@
     "ap": 1,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3077,7 +3077,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372665/gundam_cards/GD01-046.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521260
+    "last_updated": 1765631199
   },
   {
     "id": "GD01-047",
@@ -3089,7 +3089,7 @@
     "ap": 6,
     "level": 8,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -3099,7 +3099,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372667/gundam_cards/GD01-047.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521262
+    "last_updated": 1765631200
   },
   {
     "id": "GD01-048",
@@ -3111,7 +3111,7 @@
     "ap": 0,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -3121,7 +3121,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372669/gundam_cards/GD01-048.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521264
+    "last_updated": 1765631200
   },
   {
     "id": "GD01-049",
@@ -3133,7 +3133,7 @@
     "ap": 3,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3143,7 +3143,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372671/gundam_cards/GD01-049.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521266
+    "last_updated": 1765631201
   },
   {
     "id": "GD01-050",
@@ -3155,7 +3155,7 @@
     "ap": 2,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3165,7 +3165,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372673/gundam_cards/GD01-050.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521268
+    "last_updated": 1765631201
   },
   {
     "id": "GD01-051",
@@ -3177,7 +3177,7 @@
     "ap": 3,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -3187,7 +3187,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372675/gundam_cards/GD01-051.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521269
+    "last_updated": 1765631202
   },
   {
     "id": "GD01-052",
@@ -3199,7 +3199,7 @@
     "ap": 2,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -3209,7 +3209,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372677/gundam_cards/GD01-052.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521272
+    "last_updated": 1765631203
   },
   {
     "id": "GD01-053",
@@ -3221,7 +3221,7 @@
     "ap": 4,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -3231,7 +3231,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372680/gundam_cards/GD01-053.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521273
+    "last_updated": 1765631203
   },
   {
     "id": "GD01-054",
@@ -3243,7 +3243,7 @@
     "ap": 0,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3253,7 +3253,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372682/gundam_cards/GD01-054.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521276
+    "last_updated": 1765631204
   },
   {
     "id": "GD01-055",
@@ -3265,7 +3265,7 @@
     "ap": 2,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3275,7 +3275,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372684/gundam_cards/GD01-055.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521278
+    "last_updated": 1765631204
   },
   {
     "id": "GD01-056",
@@ -3287,7 +3287,7 @@
     "ap": 2,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -3297,7 +3297,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372687/gundam_cards/GD01-056.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521280
+    "last_updated": 1765631205
   },
   {
     "id": "GD01-057",
@@ -3309,7 +3309,7 @@
     "ap": 2,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -3319,7 +3319,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372689/gundam_cards/GD01-057.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521282
+    "last_updated": 1765631205
   },
   {
     "id": "GD01-058",
@@ -3331,7 +3331,7 @@
     "ap": 3,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -3341,7 +3341,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372691/gundam_cards/GD01-058.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521284
+    "last_updated": 1765631206
   },
   {
     "id": "GD01-059",
@@ -3353,7 +3353,7 @@
     "ap": 2,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -3363,7 +3363,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372693/gundam_cards/GD01-059.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521286
+    "last_updated": 1765631206
   },
   {
     "id": "GD01-060",
@@ -3375,7 +3375,7 @@
     "ap": 2,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -3385,7 +3385,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372696/gundam_cards/GD01-060.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521288
+    "last_updated": 1765631207
   },
   {
     "id": "GD01-061",
@@ -3397,7 +3397,7 @@
     "ap": 0,
     "level": 1,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3407,7 +3407,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372698/gundam_cards/GD01-061.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521290
+    "last_updated": 1765631207
   },
   {
     "id": "GD01-062",
@@ -3419,7 +3419,7 @@
     "ap": 1,
     "level": 1,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3429,7 +3429,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372700/gundam_cards/GD01-062.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521292
+    "last_updated": 1765631208
   },
   {
     "id": "GD01-063",
@@ -3441,7 +3441,7 @@
     "ap": 2,
     "level": 0,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3451,7 +3451,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372702/gundam_cards/GD01-063.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521294
+    "last_updated": 1765631208
   },
   {
     "id": "GD01-064",
@@ -3463,7 +3463,7 @@
     "ap": 3,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -3473,7 +3473,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372705/gundam_cards/GD01-064.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521296
+    "last_updated": 1765631209
   },
   {
     "id": "GD01-065",
@@ -3485,7 +3485,7 @@
     "ap": 4,
     "level": 7,
     "color": "White",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Triple Ship Alliance)",
@@ -3495,7 +3495,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372707/gundam_cards/GD01-065.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521298
+    "last_updated": 1765631209
   },
   {
     "id": "GD01-066",
@@ -3507,7 +3507,7 @@
     "ap": 0,
     "level": 7,
     "color": "White",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Triple Ship Alliance)",
@@ -3517,7 +3517,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372709/gundam_cards/GD01-066.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521300
+    "last_updated": 1765631210
   },
   {
     "id": "GD01-067",
@@ -3529,7 +3529,7 @@
     "ap": 5,
     "level": 6,
     "color": "White",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3539,7 +3539,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372711/gundam_cards/GD01-067.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521301
+    "last_updated": 1765631210
   },
   {
     "id": "GD01-068",
@@ -3551,7 +3551,7 @@
     "ap": 4,
     "level": 5,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Triple Ship Alliance)",
@@ -3561,7 +3561,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372713/gundam_cards/GD01-068.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521303
+    "last_updated": 1765631211
   },
   {
     "id": "GD01-069",
@@ -3573,7 +3573,7 @@
     "ap": 3,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Triple Ship Alliance)",
@@ -3583,7 +3583,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372715/gundam_cards/GD01-069.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521305
+    "last_updated": 1765631211
   },
   {
     "id": "GD01-070",
@@ -3595,7 +3595,7 @@
     "ap": 3,
     "level": 0,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3605,7 +3605,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372717/gundam_cards/GD01-070.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521307
+    "last_updated": 1765631212
   },
   {
     "id": "GD01-071",
@@ -3617,7 +3617,7 @@
     "ap": 3,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3627,7 +3627,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372719/gundam_cards/GD01-071.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521309
+    "last_updated": 1765631212
   },
   {
     "id": "GD01-072",
@@ -3639,7 +3639,7 @@
     "ap": 3,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -3649,7 +3649,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372721/gundam_cards/GD01-072.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521311
+    "last_updated": 1765631213
   },
   {
     "id": "GD01-073",
@@ -3661,7 +3661,7 @@
     "ap": 4,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -3671,7 +3671,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372723/gundam_cards/GD01-073.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521313
+    "last_updated": 1765631214
   },
   {
     "id": "GD01-074",
@@ -3683,7 +3683,7 @@
     "ap": 3,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3693,7 +3693,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372725/gundam_cards/GD01-074.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521315
+    "last_updated": 1765631214
   },
   {
     "id": "GD01-075",
@@ -3705,7 +3705,7 @@
     "ap": 4,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3715,7 +3715,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372727/gundam_cards/GD01-075.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521317
+    "last_updated": 1765631215
   },
   {
     "id": "GD01-076",
@@ -3727,7 +3727,7 @@
     "ap": 3,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3737,7 +3737,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372729/gundam_cards/GD01-076.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521319
+    "last_updated": 1765631215
   },
   {
     "id": "GD01-077",
@@ -3749,7 +3749,7 @@
     "ap": 3,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -3759,7 +3759,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372732/gundam_cards/GD01-077.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521320
+    "last_updated": 1765631216
   },
   {
     "id": "GD01-078",
@@ -3771,7 +3771,7 @@
     "ap": 1,
     "level": 1,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -3781,7 +3781,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372734/gundam_cards/GD01-078.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521322
+    "last_updated": 1765631216
   },
   {
     "id": "GD01-079",
@@ -3793,7 +3793,7 @@
     "ap": 2,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -3803,7 +3803,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372735/gundam_cards/GD01-079.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521324
+    "last_updated": 1765631217
   },
   {
     "id": "GD01-080",
@@ -3815,7 +3815,7 @@
     "ap": 2,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -3825,7 +3825,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372737/gundam_cards/GD01-080.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521326
+    "last_updated": 1765631217
   },
   {
     "id": "GD01-081",
@@ -3837,7 +3837,7 @@
     "ap": 0,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Triple Ship Alliance)",
@@ -3847,7 +3847,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372739/gundam_cards/GD01-081.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521328
+    "last_updated": 1765631218
   },
   {
     "id": "GD01-082",
@@ -3859,7 +3859,7 @@
     "ap": 4,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3869,7 +3869,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372741/gundam_cards/GD01-082.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521330
+    "last_updated": 1765631218
   },
   {
     "id": "GD01-083",
@@ -3881,7 +3881,7 @@
     "ap": 2,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3891,7 +3891,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372743/gundam_cards/GD01-083.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521332
+    "last_updated": 1765631219
   },
   {
     "id": "GD01-084",
@@ -3903,7 +3903,7 @@
     "ap": 2,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3913,7 +3913,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372745/gundam_cards/GD01-084.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521334
+    "last_updated": 1765631219
   },
   {
     "id": "GD01-085",
@@ -3925,7 +3925,7 @@
     "ap": 2,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -3935,7 +3935,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372747/gundam_cards/GD01-085.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521337
+    "last_updated": 1765631220
   },
   {
     "id": "GD01-086",
@@ -3947,7 +3947,7 @@
     "ap": 2,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Vanadis Institute)",
@@ -3957,7 +3957,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372749/gundam_cards/GD01-086.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521338
+    "last_updated": 1765631220
   },
   {
     "id": "GD01-087",
@@ -3969,7 +3969,7 @@
     "ap": 1,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team) (Newtype)",
@@ -3979,7 +3979,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372751/gundam_cards/GD01-087.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521340
+    "last_updated": 1765631221
   },
   {
     "id": "GD01-088",
@@ -3991,7 +3991,7 @@
     "ap": 2,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Civilian) (Newtype)",
@@ -4001,7 +4001,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372753/gundam_cards/GD01-088.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521342
+    "last_updated": 1765631222
   },
   {
     "id": "GD01-089",
@@ -4013,7 +4013,7 @@
     "ap": 1,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -4023,7 +4023,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372755/gundam_cards/GD01-089.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521344
+    "last_updated": 1765631222
   },
   {
     "id": "GD01-090",
@@ -4035,7 +4035,7 @@
     "ap": 0,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -4045,7 +4045,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372758/gundam_cards/GD01-090.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521346
+    "last_updated": 1765631223
   },
   {
     "id": "GD01-091",
@@ -4057,7 +4057,7 @@
     "ap": 2,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -4067,7 +4067,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372759/gundam_cards/GD01-091.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521348
+    "last_updated": 1765631223
   },
   {
     "id": "GD01-092",
@@ -4079,7 +4079,7 @@
     "ap": 1,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -4089,7 +4089,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372761/gundam_cards/GD01-092.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521350
+    "last_updated": 1765631224
   },
   {
     "id": "GD01-093",
@@ -4101,7 +4101,7 @@
     "ap": 2,
     "level": 66,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Neo Zeon) (Cyber-Newtype)",
@@ -4111,7 +4111,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372763/gundam_cards/GD01-093.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521352
+    "last_updated": 1765631224
   },
   {
     "id": "GD01-094",
@@ -4123,7 +4123,7 @@
     "ap": 1,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(ZAFT) (Coordinator)",
@@ -4133,7 +4133,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372765/gundam_cards/GD01-094.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521353
+    "last_updated": 1765631225
   },
   {
     "id": "GD01-095",
@@ -4145,7 +4145,7 @@
     "ap": 1,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(ZAFT) (Coordinator)",
@@ -4155,7 +4155,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372767/gundam_cards/GD01-095.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521355
+    "last_updated": 1765631225
   },
   {
     "id": "GD01-096",
@@ -4167,7 +4167,7 @@
     "ap": 1,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Orb)",
@@ -4177,7 +4177,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372769/gundam_cards/GD01-096.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521357
+    "last_updated": 1765631226
   },
   {
     "id": "GD01-097",
@@ -4189,7 +4189,7 @@
     "ap": 1,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -4199,7 +4199,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372771/gundam_cards/GD01-097.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521359
+    "last_updated": 1765631226
   },
   {
     "id": "GD01-098",
@@ -4211,7 +4211,7 @@
     "ap": 2,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -4221,7 +4221,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372773/gundam_cards/GD01-098.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521362
+    "last_updated": 1765631227
   },
   {
     "id": "GD01-099",
@@ -4233,7 +4233,7 @@
     "ap": 0,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4243,7 +4243,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372775/gundam_cards/GD01-099.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521363
+    "last_updated": 1765631227
   },
   {
     "id": "GD01-100",
@@ -4255,7 +4255,7 @@
     "ap": 0,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4265,7 +4265,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372778/gundam_cards/GD01-100.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521366
+    "last_updated": 1765631228
   },
   {
     "id": "GD01-101",
@@ -4277,7 +4277,7 @@
     "ap": 1,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -4287,7 +4287,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372780/gundam_cards/GD01-101.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521368
+    "last_updated": 1765631228
   },
   {
     "id": "GD01-102",
@@ -4299,7 +4299,7 @@
     "ap": 0,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4309,7 +4309,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372782/gundam_cards/GD01-102.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521369
+    "last_updated": 1765631229
   },
   {
     "id": "GD01-103",
@@ -4321,7 +4321,7 @@
     "ap": 0,
     "level": 1,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -4331,7 +4331,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372784/gundam_cards/GD01-103.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521371
+    "last_updated": 1765631229
   },
   {
     "id": "GD01-104",
@@ -4343,7 +4343,7 @@
     "ap": 0,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4353,7 +4353,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372786/gundam_cards/GD01-104.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521373
+    "last_updated": 1765631230
   },
   {
     "id": "GD01-105",
@@ -4365,7 +4365,7 @@
     "ap": 0,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4375,7 +4375,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372788/gundam_cards/GD01-105.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521375
+    "last_updated": 1765631230
   },
   {
     "id": "GD01-106",
@@ -4387,7 +4387,7 @@
     "ap": 1,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -4397,7 +4397,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372790/gundam_cards/GD01-106.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521377
+    "last_updated": 1765631231
   },
   {
     "id": "GD01-107",
@@ -4409,7 +4409,7 @@
     "ap": 0,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4419,7 +4419,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372792/gundam_cards/GD01-107.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521379
+    "last_updated": 1765631231
   },
   {
     "id": "GD01-108",
@@ -4431,7 +4431,7 @@
     "ap": 0,
     "level": 6,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4441,7 +4441,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372794/gundam_cards/GD01-108.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521381
+    "last_updated": 1765631232
   },
   {
     "id": "GD01-109",
@@ -4453,7 +4453,7 @@
     "ap": 0,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4463,7 +4463,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372796/gundam_cards/GD01-109.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521384
+    "last_updated": 1765631233
   },
   {
     "id": "GD01-110",
@@ -4475,7 +4475,7 @@
     "ap": 0,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Maganac Corps)",
@@ -4485,7 +4485,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372798/gundam_cards/GD01-110.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521385
+    "last_updated": 1765631233
   },
   {
     "id": "GD01-111",
@@ -4497,7 +4497,7 @@
     "ap": 0,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4507,7 +4507,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372800/gundam_cards/GD01-111.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521387
+    "last_updated": 1765631234
   },
   {
     "id": "GD01-112",
@@ -4519,7 +4519,7 @@
     "ap": 1,
     "level": 6,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Zeon) (Newtype)",
@@ -4529,7 +4529,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372802/gundam_cards/GD01-112.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521389
+    "last_updated": 1765631234
   },
   {
     "id": "GD01-113",
@@ -4541,7 +4541,7 @@
     "ap": 1,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(ZAFT) (Coordinator)",
@@ -4551,7 +4551,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372804/gundam_cards/GD01-113.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521391
+    "last_updated": 1765631235
   },
   {
     "id": "GD01-114",
@@ -4563,7 +4563,7 @@
     "ap": 1,
     "level": 1,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -4573,7 +4573,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372806/gundam_cards/GD01-114.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521393
+    "last_updated": 1765631235
   },
   {
     "id": "GD01-115",
@@ -4585,7 +4585,7 @@
     "ap": 0,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4595,7 +4595,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372808/gundam_cards/GD01-115.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521395
+    "last_updated": 1765631236
   },
   {
     "id": "GD01-116",
@@ -4607,7 +4607,7 @@
     "ap": 0,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(ZAFT) (Coordinator)",
@@ -4617,7 +4617,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372810/gundam_cards/GD01-116.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521397
+    "last_updated": 1765631236
   },
   {
     "id": "GD01-117",
@@ -4629,7 +4629,7 @@
     "ap": 0,
     "level": 5,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4639,7 +4639,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372812/gundam_cards/GD01-117.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521399
+    "last_updated": 1765631237
   },
   {
     "id": "GD01-118",
@@ -4651,7 +4651,7 @@
     "ap": 0,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4661,7 +4661,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372815/gundam_cards/GD01-118.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521400
+    "last_updated": 1765631237
   },
   {
     "id": "GD01-119",
@@ -4673,7 +4673,7 @@
     "ap": 1,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -4683,7 +4683,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372817/gundam_cards/GD01-119.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521403
+    "last_updated": 1765631238
   },
   {
     "id": "GD01-120",
@@ -4695,7 +4695,7 @@
     "ap": 0,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4705,7 +4705,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372819/gundam_cards/GD01-120.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521405
+    "last_updated": 1765631238
   },
   {
     "id": "GD01-121",
@@ -4717,7 +4717,7 @@
     "ap": 0,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -4727,7 +4727,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372821/gundam_cards/GD01-121.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521406
+    "last_updated": 1765631239
   },
   {
     "id": "GD01-122",
@@ -4739,7 +4739,7 @@
     "ap": 1,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -4749,7 +4749,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372823/gundam_cards/GD01-122.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521408
+    "last_updated": 1765631239
   },
   {
     "id": "GD01-123",
@@ -4761,7 +4761,7 @@
     "ap": 0,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Earth Federation) (Warship)",
@@ -4771,7 +4771,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372824/gundam_cards/GD01-123.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521410
+    "last_updated": 1765631240
   },
   {
     "id": "GD01-124",
@@ -4783,7 +4783,7 @@
     "ap": 0,
     "level": 1,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Earth Federation) (Stronghold)",
@@ -4793,7 +4793,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372826/gundam_cards/GD01-124.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521412
+    "last_updated": 1765631240
   },
   {
     "id": "GD01-125",
@@ -4805,7 +4805,7 @@
     "ap": 0,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Zeon) (Warship)",
@@ -4815,7 +4815,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372829/gundam_cards/GD01-125.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521414
+    "last_updated": 1765631241
   },
   {
     "id": "GD01-126",
@@ -4827,7 +4827,7 @@
     "ap": 0,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Maganac Corps) (Stronghold)",
@@ -4837,7 +4837,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372831/gundam_cards/GD01-126.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521416
+    "last_updated": 1765631241
   },
   {
     "id": "GD01-127",
@@ -4849,7 +4849,7 @@
     "ap": 0,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(ZAFT) (Warship)",
@@ -4859,7 +4859,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372833/gundam_cards/GD01-127.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521418
+    "last_updated": 1765631242
   },
   {
     "id": "GD01-128",
@@ -4871,7 +4871,7 @@
     "ap": 0,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Neo Zeon) (Stronghold)",
@@ -4881,7 +4881,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372835/gundam_cards/GD01-128.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521420
+    "last_updated": 1765631242
   },
   {
     "id": "GD01-129",
@@ -4893,7 +4893,7 @@
     "ap": 0,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Triple Ship Alliance) (Warship)",
@@ -4903,7 +4903,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372837/gundam_cards/GD01-129.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521422
+    "last_updated": 1765631243
   },
   {
     "id": "GD01-130",
@@ -4915,7 +4915,7 @@
     "ap": 0,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Academy) (Stronghold)",
@@ -4925,7 +4925,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372839/gundam_cards/GD01-130.webp",
     "release_pack": "Newtype Rising [GD01]",
-    "last_updated": 1765521424
+    "last_updated": 1765631244
   },
   {
     "id": "GD02-001",
@@ -4937,7 +4937,7 @@
     "ap": 4,
     "level": 6,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -4947,7 +4947,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372841/gundam_cards/GD02-001.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521434
+    "last_updated": 1765631252
   },
   {
     "id": "GD02-002",
@@ -4959,7 +4959,7 @@
     "ap": 6,
     "level": 8,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(White Fang)",
@@ -4969,7 +4969,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372843/gundam_cards/GD02-002.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521437
+    "last_updated": 1765631253
   },
   {
     "id": "GD02-003",
@@ -4981,7 +4981,7 @@
     "ap": 4,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -4991,7 +4991,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372845/gundam_cards/GD02-003.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521438
+    "last_updated": 1765631253
   },
   {
     "id": "GD02-004",
@@ -5003,7 +5003,7 @@
     "ap": 4,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -5013,7 +5013,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372847/gundam_cards/GD02-004.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521441
+    "last_updated": 1765631254
   },
   {
     "id": "GD02-005",
@@ -5025,7 +5025,7 @@
     "ap": 3,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -5035,7 +5035,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372850/gundam_cards/GD02-005.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521442
+    "last_updated": 1765631254
   },
   {
     "id": "GD02-006",
@@ -5047,7 +5047,7 @@
     "ap": 4,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -5057,7 +5057,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372852/gundam_cards/GD02-006.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521445
+    "last_updated": 1765631255
   },
   {
     "id": "GD02-007",
@@ -5069,7 +5069,7 @@
     "ap": 3,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -5079,7 +5079,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372854/gundam_cards/GD02-007.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521447
+    "last_updated": 1765631255
   },
   {
     "id": "GD02-008",
@@ -5091,7 +5091,7 @@
     "ap": 4,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -5101,7 +5101,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372856/gundam_cards/GD02-008.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521449
+    "last_updated": 1765631256
   },
   {
     "id": "GD02-009",
@@ -5113,7 +5113,7 @@
     "ap": 3,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -5123,7 +5123,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372858/gundam_cards/GD02-009.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521451
+    "last_updated": 1765631256
   },
   {
     "id": "GD02-010",
@@ -5135,7 +5135,7 @@
     "ap": 4,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -5145,7 +5145,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372860/gundam_cards/GD02-010.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521453
+    "last_updated": 1765631257
   },
   {
     "id": "GD02-011",
@@ -5157,7 +5157,7 @@
     "ap": 0,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -5167,7 +5167,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372862/gundam_cards/GD02-011.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521455
+    "last_updated": 1765631257
   },
   {
     "id": "GD02-012",
@@ -5179,7 +5179,7 @@
     "ap": 2,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
@@ -5189,7 +5189,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372864/gundam_cards/GD02-012.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521456
+    "last_updated": 1765631258
   },
   {
     "id": "GD02-013",
@@ -5201,7 +5201,7 @@
     "ap": 2,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -5211,7 +5211,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372865/gundam_cards/GD02-013.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521460
+    "last_updated": 1765631258
   },
   {
     "id": "GD02-014",
@@ -5223,7 +5223,7 @@
     "ap": 3,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -5233,7 +5233,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372867/gundam_cards/GD02-014.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521462
+    "last_updated": 1765631259
   },
   {
     "id": "GD02-015",
@@ -5245,7 +5245,7 @@
     "ap": 3,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -5255,7 +5255,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372869/gundam_cards/GD02-015.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521464
+    "last_updated": 1765631259
   },
   {
     "id": "GD02-016",
@@ -5267,7 +5267,7 @@
     "ap": 3,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -5277,7 +5277,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372871/gundam_cards/GD02-016.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521466
+    "last_updated": 1765631260
   },
   {
     "id": "GD02-017",
@@ -5289,7 +5289,7 @@
     "ap": 2,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -5299,7 +5299,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372873/gundam_cards/GD02-017.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521468
+    "last_updated": 1765631260
   },
   {
     "id": "GD02-018",
@@ -5311,7 +5311,7 @@
     "ap": 3,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
@@ -5321,7 +5321,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372876/gundam_cards/GD02-018.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521470
+    "last_updated": 1765631261
   },
   {
     "id": "GD02-019",
@@ -5333,7 +5333,7 @@
     "ap": 4,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
@@ -5343,7 +5343,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372878/gundam_cards/GD02-019.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521472
+    "last_updated": 1765631262
   },
   {
     "id": "GD02-020",
@@ -5355,7 +5355,7 @@
     "ap": 4,
     "level": 6,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -5365,7 +5365,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372880/gundam_cards/GD02-020.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521474
+    "last_updated": 1765631262
   },
   {
     "id": "GD02-021",
@@ -5377,7 +5377,7 @@
     "ap": 2,
     "level": 0,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (AGE System)",
@@ -5387,7 +5387,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372881/gundam_cards/GD02-021.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521476
+    "last_updated": 1765631263
   },
   {
     "id": "GD02-022",
@@ -5399,7 +5399,7 @@
     "ap": 2,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -5409,7 +5409,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372884/gundam_cards/GD02-022.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521478
+    "last_updated": 1765631263
   },
   {
     "id": "GD02-023",
@@ -5421,7 +5421,7 @@
     "ap": 3,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (AGE System)",
@@ -5431,7 +5431,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372886/gundam_cards/GD02-023.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521479
+    "last_updated": 1765631264
   },
   {
     "id": "GD02-024",
@@ -5443,7 +5443,7 @@
     "ap": 4,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -5453,7 +5453,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765372888/gundam_cards/GD02-024.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521481
+    "last_updated": 1765631264
   },
   {
     "id": "GD02-025",
@@ -5465,7 +5465,7 @@
     "ap": 3,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
@@ -5475,7 +5475,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387386/gundam_cards/GD02-025.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521483
+    "last_updated": 1765631265
   },
   {
     "id": "GD02-026",
@@ -5487,7 +5487,7 @@
     "ap": 2,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -5497,7 +5497,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387387/gundam_cards/GD02-026.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521486
+    "last_updated": 1765631265
   },
   {
     "id": "GD02-027",
@@ -5509,7 +5509,7 @@
     "ap": 5,
     "level": 7,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (AGE System)",
@@ -5519,7 +5519,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387390/gundam_cards/GD02-027.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521491
+    "last_updated": 1765631266
   },
   {
     "id": "GD02-028",
@@ -5531,7 +5531,7 @@
     "ap": 3,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Maganac Corps)",
@@ -5541,7 +5541,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387391/gundam_cards/GD02-028.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521494
+    "last_updated": 1765631266
   },
   {
     "id": "GD02-029",
@@ -5553,7 +5553,7 @@
     "ap": 3,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (AGE System)",
@@ -5563,7 +5563,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387393/gundam_cards/GD02-029.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521495
+    "last_updated": 1765631267
   },
   {
     "id": "GD02-030",
@@ -5575,7 +5575,7 @@
     "ap": 1,
     "level": 1,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -5585,7 +5585,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387394/gundam_cards/GD02-030.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521497
+    "last_updated": 1765631267
   },
   {
     "id": "GD02-031",
@@ -5597,7 +5597,7 @@
     "ap": 2,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (AGE System)",
@@ -5607,7 +5607,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387395/gundam_cards/GD02-031.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521499
+    "last_updated": 1765631268
   },
   {
     "id": "GD02-032",
@@ -5619,7 +5619,7 @@
     "ap": 3,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -5629,7 +5629,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387397/gundam_cards/GD02-032.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521501
+    "last_updated": 1765631268
   },
   {
     "id": "GD02-033",
@@ -5641,7 +5641,7 @@
     "ap": 3,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -5651,7 +5651,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387398/gundam_cards/GD02-033.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521503
+    "last_updated": 1765631269
   },
   {
     "id": "GD02-034",
@@ -5663,7 +5663,7 @@
     "ap": 0,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
@@ -5673,7 +5673,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387399/gundam_cards/GD02-034.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521505
+    "last_updated": 1765631269
   },
   {
     "id": "GD02-035",
@@ -5685,7 +5685,7 @@
     "ap": 2,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Side 6)",
@@ -5695,7 +5695,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387400/gundam_cards/GD02-035.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521507
+    "last_updated": 1765631270
   },
   {
     "id": "GD02-036",
@@ -5707,7 +5707,7 @@
     "ap": 5,
     "level": 7,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -5717,7 +5717,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387402/gundam_cards/GD02-036.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521509
+    "last_updated": 1765631270
   },
   {
     "id": "GD02-037",
@@ -5729,7 +5729,7 @@
     "ap": 4,
     "level": 5,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(New UNE)",
@@ -5739,7 +5739,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387403/gundam_cards/GD02-037.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521511
+    "last_updated": 1765631271
   },
   {
     "id": "GD02-038",
@@ -5751,7 +5751,7 @@
     "ap": 5,
     "level": 7,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -5761,7 +5761,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387405/gundam_cards/GD02-038.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521512
+    "last_updated": 1765631271
   },
   {
     "id": "GD02-039",
@@ -5773,7 +5773,7 @@
     "ap": 2,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -5783,7 +5783,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387406/gundam_cards/GD02-039.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521514
+    "last_updated": 1765631272
   },
   {
     "id": "GD02-040",
@@ -5795,7 +5795,7 @@
     "ap": 3,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(New UNE)",
@@ -5805,7 +5805,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387407/gundam_cards/GD02-040.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521517
+    "last_updated": 1765631273
   },
   {
     "id": "GD02-041",
@@ -5817,7 +5817,7 @@
     "ap": 3,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Clan)",
@@ -5827,7 +5827,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387408/gundam_cards/GD02-041.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521519
+    "last_updated": 1765631273
   },
   {
     "id": "GD02-042",
@@ -5839,7 +5839,7 @@
     "ap": 3,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(New UNE)",
@@ -5849,7 +5849,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387410/gundam_cards/GD02-042.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521521
+    "last_updated": 1765631274
   },
   {
     "id": "GD02-043",
@@ -5861,7 +5861,7 @@
     "ap": 2,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(New UNE)",
@@ -5871,7 +5871,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387411/gundam_cards/GD02-043.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521523
+    "last_updated": 1765631274
   },
   {
     "id": "GD02-044",
@@ -5883,7 +5883,7 @@
     "ap": 3,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(New UNE)",
@@ -5893,7 +5893,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387412/gundam_cards/GD02-044.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521525
+    "last_updated": 1765631275
   },
   {
     "id": "GD02-045",
@@ -5905,7 +5905,7 @@
     "ap": 1,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
@@ -5915,7 +5915,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387414/gundam_cards/GD02-045.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521527
+    "last_updated": 1765631275
   },
   {
     "id": "GD02-046",
@@ -5927,7 +5927,7 @@
     "ap": 3,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -5937,7 +5937,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387415/gundam_cards/GD02-046.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521529
+    "last_updated": 1765631276
   },
   {
     "id": "GD02-047",
@@ -5949,7 +5949,7 @@
     "ap": 0,
     "level": 1,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -5959,7 +5959,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387417/gundam_cards/GD02-047.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521531
+    "last_updated": 1765631276
   },
   {
     "id": "GD02-048",
@@ -5971,7 +5971,7 @@
     "ap": 4,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -5981,7 +5981,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387418/gundam_cards/GD02-048.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521533
+    "last_updated": 1765631277
   },
   {
     "id": "GD02-049",
@@ -5993,7 +5993,7 @@
     "ap": 1,
     "level": 1,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(New UNE)",
@@ -6003,7 +6003,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387419/gundam_cards/GD02-049.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521534
+    "last_updated": 1765631277
   },
   {
     "id": "GD02-050",
@@ -6015,7 +6015,7 @@
     "ap": 3,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
@@ -6025,7 +6025,7 @@
     "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387420/gundam_cards/GD02-050.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521536
+    "last_updated": 1765631278
   },
   {
     "id": "GD02-051",
@@ -6037,7 +6037,7 @@
     "ap": 2,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -6047,7 +6047,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387422/gundam_cards/GD02-051.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521538
+    "last_updated": 1765631278
   },
   {
     "id": "GD02-052",
@@ -6059,7 +6059,7 @@
     "ap": 3,
     "level": 2,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -6069,7 +6069,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387423/gundam_cards/GD02-052.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521540
+    "last_updated": 1765631279
   },
   {
     "id": "GD02-053",
@@ -6081,7 +6081,7 @@
     "ap": 6,
     "level": 7,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Vulture)",
@@ -6091,7 +6091,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387424/gundam_cards/GD02-053.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521542
+    "last_updated": 1765631279
   },
   {
     "id": "GD02-054",
@@ -6103,7 +6103,7 @@
     "ap": 3,
     "level": 3,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Tekkadan) (Gundam Frame)",
@@ -6113,7 +6113,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387426/gundam_cards/GD02-054.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521546
+    "last_updated": 1765631280
   },
   {
     "id": "GD02-055",
@@ -6125,7 +6125,7 @@
     "ap": 3,
     "level": 5,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Tekkadan) (Gundam Frame)",
@@ -6135,7 +6135,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387427/gundam_cards/GD02-055.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521548
+    "last_updated": 1765631280
   },
   {
     "id": "GD02-056",
@@ -6147,7 +6147,7 @@
     "ap": 3,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Vulture)",
@@ -6157,7 +6157,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387428/gundam_cards/GD02-056.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521550
+    "last_updated": 1765631281
   },
   {
     "id": "GD02-057",
@@ -6169,7 +6169,7 @@
     "ap": 5,
     "level": 5,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(UE) (Vagan)",
@@ -6179,7 +6179,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387430/gundam_cards/GD02-057.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521552
+    "last_updated": 1765631281
   },
   {
     "id": "GD02-058",
@@ -6191,7 +6191,7 @@
     "ap": 2,
     "level": 3,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Tekkadan)",
@@ -6201,7 +6201,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387431/gundam_cards/GD02-058.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521554
+    "last_updated": 1765631282
   },
   {
     "id": "GD02-059",
@@ -6213,7 +6213,7 @@
     "ap": 4,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Vulture)",
@@ -6223,7 +6223,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387433/gundam_cards/GD02-059.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521556
+    "last_updated": 1765631282
   },
   {
     "id": "GD02-060",
@@ -6235,7 +6235,7 @@
     "ap": 4,
     "level": 5,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Vulture)",
@@ -6245,7 +6245,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387434/gundam_cards/GD02-060.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521557
+    "last_updated": 1765631283
   },
   {
     "id": "GD02-061",
@@ -6257,7 +6257,7 @@
     "ap": 3,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Teiwaz)",
@@ -6267,7 +6267,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387435/gundam_cards/GD02-061.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521559
+    "last_updated": 1765631284
   },
   {
     "id": "GD02-062",
@@ -6279,7 +6279,7 @@
     "ap": 3,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Teiwaz)",
@@ -6289,7 +6289,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387436/gundam_cards/GD02-062.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521561
+    "last_updated": 1765631284
   },
   {
     "id": "GD02-063",
@@ -6301,7 +6301,7 @@
     "ap": 3,
     "level": 3,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Vulture)",
@@ -6311,7 +6311,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387437/gundam_cards/GD02-063.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521563
+    "last_updated": 1765631285
   },
   {
     "id": "GD02-064",
@@ -6323,7 +6323,7 @@
     "ap": 4,
     "level": 5,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Vulture)",
@@ -6333,7 +6333,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387439/gundam_cards/GD02-064.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521565
+    "last_updated": 1765631285
   },
   {
     "id": "GD02-065",
@@ -6345,7 +6345,7 @@
     "ap": 1,
     "level": 1,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Vulture)",
@@ -6355,7 +6355,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387440/gundam_cards/GD02-065.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521567
+    "last_updated": 1765631286
   },
   {
     "id": "GD02-066",
@@ -6367,7 +6367,7 @@
     "ap": 2,
     "level": 2,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(UE) (Vagan)",
@@ -6377,7 +6377,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387441/gundam_cards/GD02-066.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521569
+    "last_updated": 1765631286
   },
   {
     "id": "GD02-067",
@@ -6389,7 +6389,7 @@
     "ap": 2,
     "level": 2,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(UE) (Vagan)",
@@ -6399,7 +6399,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387442/gundam_cards/GD02-067.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521571
+    "last_updated": 1765631287
   },
   {
     "id": "GD02-068",
@@ -6411,7 +6411,7 @@
     "ap": 3,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Tekkadan) (Gundam Frame)",
@@ -6421,7 +6421,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387444/gundam_cards/GD02-068.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521573
+    "last_updated": 1765631287
   },
   {
     "id": "GD02-069",
@@ -6433,7 +6433,7 @@
     "ap": 5,
     "level": 6,
     "color": "White",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(AEUG)",
@@ -6443,7 +6443,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387445/gundam_cards/GD02-069.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521574
+    "last_updated": 1765631288
   },
   {
     "id": "GD02-070",
@@ -6455,7 +6455,7 @@
     "ap": 4,
     "level": 5,
     "color": "White",
-    "rarity": "-",
+    "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Gjallarhorn) (Gundam Frame)",
@@ -6465,7 +6465,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387447/gundam_cards/GD02-070.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521576
+    "last_updated": 1765631288
   },
   {
     "id": "GD02-071",
@@ -6477,7 +6477,7 @@
     "ap": 3,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(AEUG)",
@@ -6487,7 +6487,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387448/gundam_cards/GD02-071.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521579
+    "last_updated": 1765631289
   },
   {
     "id": "GD02-072",
@@ -6499,7 +6499,7 @@
     "ap": 4,
     "level": 5,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(AEUG)",
@@ -6509,7 +6509,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387449/gundam_cards/GD02-072.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521581
+    "last_updated": 1765631289
   },
   {
     "id": "GD02-073",
@@ -6521,7 +6521,7 @@
     "ap": 5,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -6531,7 +6531,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387451/gundam_cards/GD02-073.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521583
+    "last_updated": 1765631290
   },
   {
     "id": "GD02-074",
@@ -6543,7 +6543,7 @@
     "ap": 5,
     "level": 7,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -6553,7 +6553,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387452/gundam_cards/GD02-074.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521585
+    "last_updated": 1765631290
   },
   {
     "id": "GD02-075",
@@ -6565,7 +6565,7 @@
     "ap": 4,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(AEUG)",
@@ -6575,7 +6575,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387453/gundam_cards/GD02-075.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521587
+    "last_updated": 1765631291
   },
   {
     "id": "GD02-076",
@@ -6587,7 +6587,7 @@
     "ap": 0,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Triple Ship Alliance)",
@@ -6597,7 +6597,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387455/gundam_cards/GD02-076.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521589
+    "last_updated": 1765631291
   },
   {
     "id": "GD02-077",
@@ -6609,7 +6609,7 @@
     "ap": 4,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -6619,7 +6619,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387457/gundam_cards/GD02-077.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521591
+    "last_updated": 1765631292
   },
   {
     "id": "GD02-078",
@@ -6631,7 +6631,7 @@
     "ap": 5,
     "level": 5,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -6641,7 +6641,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387459/gundam_cards/GD02-078.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521593
+    "last_updated": 1765631292
   },
   {
     "id": "GD02-079",
@@ -6653,7 +6653,7 @@
     "ap": 3,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(AEUG)",
@@ -6663,7 +6663,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387460/gundam_cards/GD02-079.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521595
+    "last_updated": 1765631293
   },
   {
     "id": "GD02-080",
@@ -6675,7 +6675,7 @@
     "ap": 2,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(AEUG)",
@@ -6685,7 +6685,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387461/gundam_cards/GD02-080.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521597
+    "last_updated": 1765631293
   },
   {
     "id": "GD02-081",
@@ -6697,7 +6697,7 @@
     "ap": 1,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(AEUG)",
@@ -6707,7 +6707,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387463/gundam_cards/GD02-081.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521599
+    "last_updated": 1765631294
   },
   {
     "id": "GD02-082",
@@ -6719,7 +6719,7 @@
     "ap": 0,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -6729,7 +6729,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387464/gundam_cards/GD02-082.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521600
+    "last_updated": 1765631295
   },
   {
     "id": "GD02-083",
@@ -6741,7 +6741,7 @@
     "ap": 3,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -6751,7 +6751,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387466/gundam_cards/GD02-083.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521602
+    "last_updated": 1765631295
   },
   {
     "id": "GD02-084",
@@ -6763,7 +6763,7 @@
     "ap": 1,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
@@ -6773,7 +6773,7 @@
     "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387468/gundam_cards/GD02-084.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521604
+    "last_updated": 1765631296
   },
   {
     "id": "GD02-085",
@@ -6785,7 +6785,7 @@
     "ap": 2,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Titans) (Cyber-Newtype)",
@@ -6795,7 +6795,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387469/gundam_cards/GD02-085.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521606
+    "last_updated": 1765631296
   },
   {
     "id": "GD02-086",
@@ -6807,7 +6807,7 @@
     "ap": 1,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -6817,7 +6817,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387470/gundam_cards/GD02-086.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521608
+    "last_updated": 1765631297
   },
   {
     "id": "GD02-087",
@@ -6829,7 +6829,7 @@
     "ap": 2,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Earth Alliance) (Biological CPU)",
@@ -6839,7 +6839,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387471/gundam_cards/GD02-087.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521610
+    "last_updated": 1765631297
   },
   {
     "id": "GD02-088",
@@ -6851,7 +6851,7 @@
     "ap": 1,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Earth Federation) (Asuno Family) (X-Rounder)",
@@ -6861,7 +6861,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387472/gundam_cards/GD02-088.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521614
+    "last_updated": 1765631298
   },
   {
     "id": "GD02-089",
@@ -6873,7 +6873,7 @@
     "ap": 1,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Zeon) (Newtype)",
@@ -6883,7 +6883,7 @@
     "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387474/gundam_cards/GD02-089.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521616
+    "last_updated": 1765631298
   },
   {
     "id": "GD02-090",
@@ -6895,7 +6895,7 @@
     "ap": 1,
     "level": 5,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Zeon) (Newtype)",
@@ -6905,7 +6905,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387475/gundam_cards/GD02-090.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521617
+    "last_updated": 1765631299
   },
   {
     "id": "GD02-091",
@@ -6917,7 +6917,7 @@
     "ap": 2,
     "level": 0,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Neo Zeon) (Newtype)",
@@ -6927,7 +6927,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387476/gundam_cards/GD02-091.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521619
+    "last_updated": 1765631299
   },
   {
     "id": "GD02-092",
@@ -6939,7 +6939,7 @@
     "ap": 1,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(New UNE)",
@@ -6949,7 +6949,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387478/gundam_cards/GD02-092.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521621
+    "last_updated": 1765631300
   },
   {
     "id": "GD02-093",
@@ -6961,7 +6961,7 @@
     "ap": 1,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(New UNE)",
@@ -6971,7 +6971,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387479/gundam_cards/GD02-093.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521623
+    "last_updated": 1765631300
   },
   {
     "id": "GD02-094",
@@ -6983,7 +6983,7 @@
     "ap": 1,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "R",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Vulture) (Newtype)",
@@ -6993,7 +6993,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387480/gundam_cards/GD02-094.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521625
+    "last_updated": 1765631301
   },
   {
     "id": "GD02-095",
@@ -7005,7 +7005,7 @@
     "ap": 2,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "U",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Teiwaz)",
@@ -7015,7 +7015,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387482/gundam_cards/GD02-095.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521627
+    "last_updated": 1765631301
   },
   {
     "id": "GD02-096",
@@ -7027,7 +7027,7 @@
     "ap": 2,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Vagan) (X-Rounder)",
@@ -7037,7 +7037,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387484/gundam_cards/GD02-096.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521628
+    "last_updated": 1765631302
   },
   {
     "id": "GD02-097",
@@ -7049,7 +7049,7 @@
     "ap": 1,
     "level": 5,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(AEUG) (Newtype)",
@@ -7059,7 +7059,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387485/gundam_cards/GD02-097.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521630
+    "last_updated": 1765631302
   },
   {
     "id": "GD02-098",
@@ -7071,7 +7071,7 @@
     "ap": 1,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(AEUG) (Newtype)",
@@ -7081,7 +7081,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387486/gundam_cards/GD02-098.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521632
+    "last_updated": 1765631303
   },
   {
     "id": "GD02-099",
@@ -7093,7 +7093,7 @@
     "ap": 1,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -7103,7 +7103,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387488/gundam_cards/GD02-099.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521634
+    "last_updated": 1765631303
   },
   {
     "id": "GD02-100",
@@ -7115,7 +7115,7 @@
     "ap": 0,
     "level": 5,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7125,7 +7125,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387490/gundam_cards/GD02-100.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521636
+    "last_updated": 1765631304
   },
   {
     "id": "GD02-101",
@@ -7137,7 +7137,7 @@
     "ap": 0,
     "level": 1,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7147,7 +7147,7 @@
     "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387491/gundam_cards/GD02-101.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521638
+    "last_updated": 1765631305
   },
   {
     "id": "GD02-102",
@@ -7159,7 +7159,7 @@
     "ap": 1,
     "level": 2,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Titans)",
@@ -7169,7 +7169,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387492/gundam_cards/GD02-102.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521640
+    "last_updated": 1765631305
   },
   {
     "id": "GD02-103",
@@ -7181,7 +7181,7 @@
     "ap": 0,
     "level": 4,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7191,7 +7191,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387493/gundam_cards/GD02-103.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521642
+    "last_updated": 1765631306
   },
   {
     "id": "GD02-104",
@@ -7203,7 +7203,7 @@
     "ap": 0,
     "level": 1,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7213,7 +7213,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387495/gundam_cards/GD02-104.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521644
+    "last_updated": 1765631306
   },
   {
     "id": "GD02-105",
@@ -7225,7 +7225,7 @@
     "ap": 1,
     "level": 2,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Zeon) (Newtype)",
@@ -7235,7 +7235,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387496/gundam_cards/GD02-105.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521646
+    "last_updated": 1765631307
   },
   {
     "id": "GD02-106",
@@ -7247,7 +7247,7 @@
     "ap": 1,
     "level": 0,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Earth Federation)",
@@ -7257,7 +7257,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387497/gundam_cards/GD02-106.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521648
+    "last_updated": 1765631307
   },
   {
     "id": "GD02-107",
@@ -7269,7 +7269,7 @@
     "ap": 0,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7279,7 +7279,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387499/gundam_cards/GD02-107.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521649
+    "last_updated": 1765631308
   },
   {
     "id": "GD02-108",
@@ -7291,7 +7291,7 @@
     "ap": 0,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7301,7 +7301,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387500/gundam_cards/GD02-108.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521651
+    "last_updated": 1765631308
   },
   {
     "id": "GD02-109",
@@ -7313,7 +7313,7 @@
     "ap": 1,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Clan) (Newtype)",
@@ -7323,7 +7323,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387501/gundam_cards/GD02-109.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521653
+    "last_updated": 1765631309
   },
   {
     "id": "GD02-110",
@@ -7335,7 +7335,7 @@
     "ap": 0,
     "level": 6,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7345,7 +7345,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387503/gundam_cards/GD02-110.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521655
+    "last_updated": 1765631309
   },
   {
     "id": "GD02-111",
@@ -7357,7 +7357,7 @@
     "ap": 0,
     "level": 5,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7367,7 +7367,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387505/gundam_cards/GD02-111.webp",
     "release_pack": "In the removal area. Since this is separate from the trash, set aside a location where only exiled cards are placed (not including tokens).",
-    "last_updated": 1765521657
+    "last_updated": 1765631310
   },
   {
     "id": "GD02-112",
@@ -7379,7 +7379,7 @@
     "ap": 0,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7389,7 +7389,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387506/gundam_cards/GD02-112.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521659
+    "last_updated": 1765631310
   },
   {
     "id": "GD02-113",
@@ -7401,7 +7401,7 @@
     "ap": 1,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Teiwaz)",
@@ -7411,7 +7411,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387508/gundam_cards/GD02-113.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521660
+    "last_updated": 1765631311
   },
   {
     "id": "GD02-114",
@@ -7423,7 +7423,7 @@
     "ap": 1,
     "level": 2,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Tekkadan) (Alaya-Vijnana)",
@@ -7433,7 +7433,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387512/gundam_cards/GD02-114.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521662
+    "last_updated": 1765631311
   },
   {
     "id": "GD02-115",
@@ -7445,7 +7445,7 @@
     "ap": 0,
     "level": 2,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Vulture)",
@@ -7455,7 +7455,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387513/gundam_cards/GD02-115.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521664
+    "last_updated": 1765631312
   },
   {
     "id": "GD02-116",
@@ -7467,7 +7467,7 @@
     "ap": 1,
     "level": 3,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Vulture)",
@@ -7477,7 +7477,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387515/gundam_cards/GD02-116.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521666
+    "last_updated": 1765631312
   },
   {
     "id": "GD02-117",
@@ -7489,7 +7489,7 @@
     "ap": 0,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
@@ -7499,7 +7499,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387516/gundam_cards/GD02-117.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521668
+    "last_updated": 1765631313
   },
   {
     "id": "GD02-118",
@@ -7511,7 +7511,7 @@
     "ap": 1,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -7521,7 +7521,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387517/gundam_cards/GD02-118.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521670
+    "last_updated": 1765631313
   },
   {
     "id": "GD02-119",
@@ -7533,7 +7533,7 @@
     "ap": 1,
     "level": 2,
     "color": "White",
-    "rarity": "-",
+    "rarity": "U",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Gjallarhorn)",
@@ -7543,7 +7543,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387519/gundam_cards/GD02-119.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521672
+    "last_updated": 1765631314
   },
   {
     "id": "GD02-120",
@@ -7555,7 +7555,7 @@
     "ap": 0,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(AEUG)",
@@ -7565,7 +7565,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387520/gundam_cards/GD02-120.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521674
+    "last_updated": 1765631314
   },
   {
     "id": "GD02-121",
@@ -7577,7 +7577,7 @@
     "ap": 0,
     "level": 4,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "U",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Earth Alliance) (Warship)",
@@ -7587,7 +7587,7 @@
     "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387522/gundam_cards/GD02-121.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521676
+    "last_updated": 1765631315
   },
   {
     "id": "GD02-122",
@@ -7599,7 +7599,7 @@
     "ap": 0,
     "level": 3,
     "color": "Blue",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Titans) (Warship)",
@@ -7609,7 +7609,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387523/gundam_cards/GD02-122.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521678
+    "last_updated": 1765631315
   },
   {
     "id": "GD02-123",
@@ -7621,7 +7621,7 @@
     "ap": 0,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "R",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Zeon) (Warship)",
@@ -7631,7 +7631,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387525/gundam_cards/GD02-123.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521681
+    "last_updated": 1765631316
   },
   {
     "id": "GD02-124",
@@ -7643,7 +7643,7 @@
     "ap": 0,
     "level": 3,
     "color": "Green",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Earth Federation) (Warship)",
@@ -7653,7 +7653,7 @@
     "source_title": "Mobile Suit Gundam AGE",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387526/gundam_cards/GD02-124.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521683
+    "last_updated": 1765631317
   },
   {
     "id": "GD02-125",
@@ -7665,7 +7665,7 @@
     "ap": 0,
     "level": 4,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "R",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Neo Zeon) (Warship)",
@@ -7675,7 +7675,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387527/gundam_cards/GD02-125.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521685
+    "last_updated": 1765631317
   },
   {
     "id": "GD02-126",
@@ -7687,7 +7687,7 @@
     "ap": 0,
     "level": 3,
     "color": "Red",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Clan) (Stronghold)",
@@ -7697,7 +7697,7 @@
     "source_title": "Mobile Suit Gundam GQuuuuuuX",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387529/gundam_cards/GD02-126.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521687
+    "last_updated": 1765631318
   },
   {
     "id": "GD02-127",
@@ -7709,7 +7709,7 @@
     "ap": 0,
     "level": 2,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "U",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Vulture) (Warship)",
@@ -7719,7 +7719,7 @@
     "source_title": "After War Gundam X",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387530/gundam_cards/GD02-127.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521689
+    "last_updated": 1765631318
   },
   {
     "id": "GD02-128",
@@ -7731,7 +7731,7 @@
     "ap": 0,
     "level": 4,
     "color": "Purple",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Teiwaz) (Warship)",
@@ -7741,7 +7741,7 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387534/gundam_cards/GD02-128.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521691
+    "last_updated": 1765631319
   },
   {
     "id": "GD02-129",
@@ -7753,7 +7753,7 @@
     "ap": 0,
     "level": 3,
     "color": "White",
-    "rarity": "-",
+    "rarity": "R",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(AEUG) (Warship)",
@@ -7763,7 +7763,7 @@
     "source_title": "Mobile Suit Z Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387535/gundam_cards/GD02-129.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521694
+    "last_updated": 1765631319
   },
   {
     "id": "GD02-130",
@@ -7775,7 +7775,7 @@
     "ap": 0,
     "level": 4,
     "color": "White",
-    "rarity": "-",
+    "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Gjallarhorn) (Warship)",
@@ -7785,6 +7785,6 @@
     "source_title": "Mobile Suit Gundam IRON-BLOODED ORPHANS",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765387537/gundam_cards/GD02-130.webp",
     "release_pack": "Dual Impact [GD02]",
-    "last_updated": 1765521696
+    "last_updated": 1765631320
   }
 ]
