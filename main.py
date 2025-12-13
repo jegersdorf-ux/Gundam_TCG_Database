@@ -139,6 +139,7 @@ def scrape_card(card_id, existing_card=None):
             "link": "-", "source": "-", "release": "-"
         }
 
+        # 1. Standard Description List Parsing
         for dt in soup.find_all("dt"):
             label = dt.text.strip().lower()
             val_tag = dt.find_next_sibling("dd")
@@ -149,7 +150,6 @@ def scrape_card(card_id, existing_card=None):
             elif "cost" in label: raw_stats["cost"] = val
             elif "hp" in label: raw_stats["hp"] = val
             elif "ap" in label or "atk" in label: raw_stats["ap"] = val
-            elif "rarity" in label: raw_stats["rarity"] = val
             elif "color" in label: raw_stats["color"] = val
             elif "type" in label: raw_stats["type"] = val
             elif "zone" in label: raw_stats["zone"] = val
@@ -157,6 +157,15 @@ def scrape_card(card_id, existing_card=None):
             elif "link" in label: raw_stats["link"] = val
             elif "source" in label: raw_stats["source"] = val
             elif "where" in label: raw_stats["release"] = val
+
+        # 2. Specific Rarity Extraction (The Fix)
+        # We prioritize the dedicated class extraction over the generic list
+        rarity_tag = soup.select_one(".rarity")
+        if rarity_tag:
+             raw_stats["rarity"] = rarity_tag.text.strip()
+        elif "rarity" not in raw_stats or raw_stats["rarity"] == "-":
+             # Fallback: sometimes rarity is in the DT list, but usually it's in the div
+             pass
 
         block_icon_tag = soup.select_one(".blockIcon")
         block_icon = safe_int(block_icon_tag.text.strip()) if block_icon_tag else 0
