@@ -75,14 +75,16 @@ def discover_sets():
     """
     print("🔍 Probing for sets...")
     found_sets = []
-    prefixes = ["ST", "GD", "PR", "UT"]
+    # ADDED: Explicitly checking for EX sets requested by user
+    prefixes = ["ST", "GD", "PR", "UT", "EXRP", "EXB", "EXR", "EXBP"]
     PROBE_TIMEOUT = 5
     
     for prefix in prefixes:
         print(f"    Checking {prefix} series...", end="")
         set_miss_streak = 0
         
-        for i in range(1, 20):
+        # We check the first few numbers to see if the set exists at all
+        for i in range(1, 10):
             set_code = f"{prefix}{i:02d}"
             test_card = f"{set_code}-001"
             url = DETAIL_URL_TEMPLATE.format(test_card)
@@ -103,8 +105,10 @@ def discover_sets():
                 pass
 
             if exists:
-                limit = 135 if prefix == "GD" else 35 
-                found_sets.append({"code": set_code, "limit": limit})
+                # UPDATED: Set a high safety ceiling (200) for ALL sets.
+                # We rely on the scraper's "miss_streak" logic to stop early.
+                # This ensures we don't accidentally cut off large sets like EXBP.
+                found_sets.append({"code": set_code, "limit": 200})
                 set_miss_streak = 0
             else:
                 set_miss_streak += 1
@@ -114,7 +118,7 @@ def discover_sets():
             
     if not found_sets:
         print("    No sets discovered. Using hardcoded fallback sets.")
-        return [{"code": "ST01", "limit": 25}, {"code": "GD01", "limit": 105}, {"code": "GD02", "limit": 105}]
+        return [{"code": "ST01", "limit": 30}, {"code": "GD01", "limit": 200}]
     return found_sets
 
 def scrape_card(card_id, existing_card=None):
@@ -132,14 +136,12 @@ def scrape_card(card_id, existing_card=None):
         if not name: return None
 
         # --- Data Extraction ---
-        # We default to harmless values so DB insertion doesn't fail
         raw_stats = {
             "level": "0", "cost": "0", "hp": "0", "ap": "0", "rarity": "-", 
             "color": "N/A", "type": "UNIT", "zone": "-", "trait": "-", 
             "link": "-", "source": "-", "release": "-"
         }
 
-        # 1. Standard Description List Parsing
         for dt in soup.find_all("dt"):
             label = dt.text.strip().lower()
             val_tag = dt.find_next_sibling("dd")
@@ -158,13 +160,11 @@ def scrape_card(card_id, existing_card=None):
             elif "source" in label: raw_stats["source"] = val
             elif "where" in label: raw_stats["release"] = val
 
-        # 2. Specific Rarity Extraction (The Fix)
-        # We prioritize the dedicated class extraction over the generic list
+        # 2. Specific Rarity Extraction
         rarity_tag = soup.select_one(".rarity")
         if rarity_tag:
              raw_stats["rarity"] = rarity_tag.text.strip()
         elif "rarity" not in raw_stats or raw_stats["rarity"] == "-":
-             # Fallback: sometimes rarity is in the DT list, but usually it's in the div
              pass
 
         block_icon_tag = soup.select_one(".blockIcon")
@@ -175,7 +175,6 @@ def scrape_card(card_id, existing_card=None):
         
         # --- SMART IMAGE HANDLING ---
         final_image_url = ""
-        # Check if we already have a Cloudinary URL to avoid re-uploading
         has_valid_existing = (
             existing_card 
             and "image_url" in existing_card 
@@ -190,8 +189,8 @@ def scrape_card(card_id, existing_card=None):
 
         # --- THE FLATTENED WATERMELON DB SCHEMA ---
         return {
-            "id": card_id,               # Primary Key
-            "card_no": card_id,          # Indexed search field
+            "id": card_id,               
+            "card_no": card_id,          
             "name": name,
             "series": card_id.split("-")[0],
             "cost": safe_int(raw_stats["cost"]),
@@ -209,7 +208,6 @@ def scrape_card(card_id, existing_card=None):
             "source_title": raw_stats["source"],
             "image_url": final_image_url,
             "release_pack": raw_stats["release"],
-            # Unix Timestamp for high-performance sorting/syncing
             "last_updated": int(time.time()) 
         }
 
@@ -232,7 +230,6 @@ def clean_database(db):
     clean_db = {}
     for key, card in db.items():
         if not isinstance(card, dict): continue
-        # Normalize key lookup
         key = card.get('id') or card.get('cardNo') or card.get('card_no')
         if not key: continue
         clean_db[key] = card
@@ -242,10 +239,8 @@ def has_changed(old, new):
     if not old: return True
     o = old.copy()
     n = new.copy()
-    # Ignore timestamp when comparing content changes
     o.pop('last_updated', None)
     n.pop('last_updated', None)
-    
     return str(o) != str(n)
 
 def run_update():
@@ -256,7 +251,6 @@ def run_update():
             with open(JSON_FILE, 'r', encoding='utf-8') as f:
                 data_list = json.load(f)
                 for c in data_list:
-                    # Support legacy keys during migration
                     key = c.get('id', c.get('cardNo'))
                     if key: master_db[key] = c
         except:
