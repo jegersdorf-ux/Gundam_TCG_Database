@@ -11,6 +11,7 @@ import cloudinary.api
 
 # --- CONFIGURATION ---
 FULL_CHECK = False 
+MAX_MISSES = 3  # The "3 Strikes" Rule
 
 # Output Files
 JSON_FILE = "cards.json"
@@ -66,7 +67,6 @@ def has_changed(old, new):
 def scrape_launch_news():
     """
     Scrapes the specific 'News' page that lists the contents of ST01-ST04.
-    Replaces the hardcoded SEED_DECKS.
     """
     print(f"📡 Scraping Launch News ({LAUNCH_NEWS_URL})...")
     decks = {}
@@ -79,16 +79,8 @@ def scrape_launch_news():
 
         soup = BeautifulSoup(resp.content, "html.parser")
         
-        # LOGIC: The page likely has multiple tables or lists, one per deck.
-        # We need to find the headers (ST01, ST02...) and then the following card data.
-        
-        # Regex to find card rows in text or table cells
-        # Pattern: "ST01-001" ... "2" (captures ID and Count, allowing for whitespace/text in between)
-        # We assume the ID comes first, then the count.
+        # Regex to find card rows: "ST01-001" followed by "2"
         card_pattern = re.compile(r'(ST\d{2}-\d{3}).*?(\d{1,2})', re.DOTALL)
-        
-        # Attempt to split the page by Deck Sections if possible. 
-        # If not, we scan the whole text and assign cards to decks based on their ID prefix.
         
         text_content = soup.get_text()
         matches = card_pattern.findall(text_content)
@@ -107,18 +99,12 @@ def scrape_launch_news():
         print(f"    ✅ Found {len(matches)} card entries.")
         
         for card_id, count in matches:
-            # Infer Deck Code from Card ID (e.g., ST01-001 -> ST01)
             deck_code = card_id.split('-')[0]
+            if deck_code not in decks: decks[deck_code] = {}
             
-            if deck_code not in decks:
-                decks[deck_code] = {}
-            
-            # Clean the count (sometimes regex grabs garbage)
             try:
                 qty = int(count.strip())
-                # Sanity check: Start decks rarely have > 4 copies
-                if qty > 50: qty = 1 # Regex likely grabbed a page number or index
-                
+                if qty > 50: qty = 1 
                 decks[deck_code][card_id] = qty
             except:
                 continue
@@ -132,10 +118,13 @@ def scrape_launch_news():
 def hunt_products():
     """
     Scans the Product Pages (st01.html to st20.html) to find valid deck Names.
+    RESTORED: 3-Miss Rule enabled.
     """
     print(f"\n🕵️ Hunting for Product Metadata...")
     found_decks = {}
+    miss_streak = 0
     
+    # Scan from ST01 up to ST20
     for i in range(1, 21):
         code = f"ST{i:02d}"
         url = PRODUCT_URL_TEMPLATE.format(code.lower())
@@ -150,12 +139,25 @@ def hunt_products():
                 clean_name = raw_title.split('[')[0].strip()
                 clean_name = clean_name.replace("GUNDAM CARD GAME", "").strip()
                 
+                print(f"    ✅ HIT: {code} -> '{clean_name}'")
                 found_decks[code] = {
                     "name": clean_name,
                     "product_url": url
                 }
+                miss_streak = 0 # Reset streak on success
+            else:
+                # 404 or other error
+                miss_streak += 1
+                
+            # THE RULE RESTORED:
+            if miss_streak >= MAX_MISSES:
+                print(f"    🛑 {miss_streak} consecutive misses (stopped at {code}). Ending Product Hunt.")
+                break
+
             time.sleep(0.1) 
         except Exception:
+            miss_streak += 1
+            if miss_streak >= MAX_MISSES: break
             pass
             
     return found_decks
@@ -183,7 +185,6 @@ def sync_decks():
         except: pass
 
     # 4. Merge Data
-    # Priority: Scraped News Data > Existing Local Data
     for deck_code, cards in news_deck_data.items():
         if has_changed(master_decks.get(deck_code), cards):
             print(f"    📝 Updating Deck List: {deck_code}")
@@ -381,7 +382,6 @@ def run_update():
         print(f"\nProcessing Set: {code} (Limit {limit})...")
         
         miss_streak = 0
-        max_misses = 3
         
         for i in range(1, limit + 1):
             card_id = f"{code}-{i:03d}"
@@ -409,8 +409,9 @@ def run_update():
                 miss_streak = 0
             else:
                 miss_streak += 1
-                if miss_streak <= max_misses:
-                    print(f"    . {card_id} not found (Miss {miss_streak}/{max_misses})")
+                # THE RULE RESTORED:
+                if miss_streak <= MAX_MISSES:
+                    print(f"    . {card_id} not found (Miss {miss_streak}/{MAX_MISSES})")
                 else:
                     print(f"    🛑 Max misses reached for {code}. Moving to next set.")
                     break 
