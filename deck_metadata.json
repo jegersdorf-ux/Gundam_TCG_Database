@@ -1,32 +1,38 @@
 {
   "ST01": {
-    "name": "",
-    "strategy_url": "https://www.gundam-gcg.com/en/decks/deck-004.php",
+    "name": "Heroic Beginnings",
     "product_url": "https://www.gundam-gcg.com/en/products/st01.html"
   },
   "ST02": {
-    "name": "",
-    "strategy_url": "https://www.gundam-gcg.com/en/decks/deck-005.php",
+    "name": "Wings of Advance",
     "product_url": "https://www.gundam-gcg.com/en/products/st02.html"
   },
   "ST03": {
-    "name": "",
-    "strategy_url": "https://www.gundam-gcg.com/en/decks/deck-009.php",
+    "name": "Zeon's Rush",
     "product_url": "https://www.gundam-gcg.com/en/products/st03.html"
   },
   "ST04": {
-    "name": "",
-    "strategy_url": "https://www.gundam-gcg.com/en/decks/deck-007.php",
+    "name": "SEED Strike",
     "product_url": "https://www.gundam-gcg.com/en/products/st04.html"
   },
   "ST05": {
-    "name": "",
-    "strategy_url": "https://www.gundam-gcg.com/en/decks/deck-010.php",
+    "name": "Iron Bloom",
     "product_url": "https://www.gundam-gcg.com/en/products/st05.html"
   },
   "ST06": {
-    "name": "",
-    "strategy_url": "https://www.gundam-gcg.com/en/decks/deck-016.php",
+    "name": "Clan Unity",
     "product_url": "https://www.gundam-gcg.com/en/products/st06.html"
+  },
+  "ST07": {
+    "name": "Celestial Drive",
+    "product_url": "https://www.gundam-gcg.com/en/products/st07.html"
+  },
+  "ST08": {
+    "name": "Flash of Radiance",
+    "product_url": "https://www.gundam-gcg.com/en/products/st08.html"
+  },
+  "ST09": {
+    "name": "Destiny Ignition",
+    "product_url": "https://www.gundam-gcg.com/en/products/st09.html"
   }
 }
