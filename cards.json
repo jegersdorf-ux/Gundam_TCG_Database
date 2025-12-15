@@ -7,19 +7,18 @@
     "cost": 3,
     "hp": 4,
     "ap": 0,
-    "level": 4,
     "color": "Blue",
     "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
-    "zone": "Space Earth",
-    "link": "[Amuro Ray]",
     "effect_text": "<Repair 2> (At the end of your turn, this Unit recovers the specified number of HP.)【During Pair】During your turn, all your Units get AP+1.",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349526/gundam_cards/ST01-001.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630244
+    "deck_quantities": {
+      "ST01": 2
+    },
+    "last_updated": 1765777613
   },
   {
     "id": "ST01-002",
@@ -29,19 +28,18 @@
     "cost": 3,
     "hp": 3,
     "ap": 4,
-    "level": 5,
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
-    "zone": "Space",
-    "link": "[Amuro Ray]",
     "effect_text": "【When Paired･(White Base Team) Pilot】Draw 1.",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349527/gundam_cards/ST01-002.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630245
+    "deck_quantities": {
+      "ST01": 4
+    },
+    "last_updated": 1765777614
   },
   {
     "id": "ST01-003",
@@ -51,19 +49,18 @@
     "cost": 2,
     "hp": 4,
     "ap": 2,
-    "level": 3,
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
-    "zone": "Space Earth",
-    "link": "[Kai Shiden]",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349529/gundam_cards/ST01-003.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630245
+    "deck_quantities": {
+      "ST01": 4
+    },
+    "last_updated": 1765777614
   },
   {
     "id": "ST01-004",
@@ -73,19 +70,18 @@
     "cost": 2,
     "hp": 3,
     "ap": 2,
-    "level": 3,
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
-    "zone": "Space Earth",
-    "link": "[Hayato Kobayashi]",
     "effect_text": "【Deploy】Choose 1 enemy Unit with 2 or less HP. Rest it.",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349531/gundam_cards/ST01-004.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630246
+    "deck_quantities": {
+      "ST01": 2
+    },
+    "last_updated": 1765777615
   },
   {
     "id": "ST01-005",
@@ -95,19 +91,18 @@
     "cost": 1,
     "hp": 2,
     "ap": 2,
-    "level": 2,
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Federation)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349533/gundam_cards/ST01-005.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630246
+    "deck_quantities": {
+      "ST01": 4
+    },
+    "last_updated": 1765777616
   },
   {
     "id": "ST01-006",
@@ -117,19 +112,18 @@
     "cost": 4,
     "hp": 4,
     "ap": 4,
-    "level": 5,
     "color": "White",
     "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
-    "zone": "Space Earth",
-    "link": "[Suletta Mercury]",
     "effect_text": "【When Paired】Choose 1 enemy Unit that is Lv.5 or lower. It gets AP-3 during this turn.",
-    "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349535/gundam_cards/ST01-006.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630247
+    "deck_quantities": {
+      "ST01": 2
+    },
+    "last_updated": 1765777616
   },
   {
     "id": "ST01-007",
@@ -139,19 +133,18 @@
     "cost": 2,
     "hp": 4,
     "ap": 3,
-    "level": 4,
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
-    "zone": "Space Earth",
-    "link": "[Suletta Mercury]",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349537/gundam_cards/ST01-007.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630247
+    "deck_quantities": {
+      "ST01": 4
+    },
+    "last_updated": 1765777617
   },
   {
     "id": "ST01-008",
@@ -161,19 +154,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
-    "level": 1,
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "<Blocker> (Rest this Unit to change the attack target to it.)",
-    "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349538/gundam_cards/ST01-008.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630248
+    "deck_quantities": {
+      "ST01": 2
+    },
+    "last_updated": 1765777617
   },
   {
     "id": "ST01-009",
@@ -183,19 +175,18 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
-    "level": 2,
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Academy)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "<Blocker> (Rest this Unit to change the attack target to it.)This Unit can't choose the enemy player as its attack target.",
-    "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349540/gundam_cards/ST01-009.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630248
+    "deck_quantities": {
+      "ST01": 4
+    },
+    "last_updated": 1765777618
   },
   {
     "id": "ST01-010",
@@ -205,19 +196,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 2,
-    "level": 4,
     "color": "Blue",
     "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team) (Newtype)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Add this card to your hand.【When Paired】Choose 1 enemy Unit with 5 or less HP. Rest it.",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349542/gundam_cards/ST01-010.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630249
+    "deck_quantities": {
+      "ST01": 4
+    },
+    "last_updated": 1765777619
   },
   {
     "id": "ST01-011",
@@ -227,19 +217,18 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
-    "level": 4,
     "color": "White",
     "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Academy)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Add this card to your hand.【Attack】【Once per Turn】Choose 1 of your Resources. Set it as active.",
-    "source_title": "Yes, it can.",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349544/gundam_cards/ST01-011.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630249
+    "deck_quantities": {
+      "ST01": 4
+    },
+    "last_updated": 1765777619
   },
   {
     "id": "ST01-012",
@@ -249,19 +238,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 0,
-    "level": 2,
     "color": "Blue",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Main】Choose 1 rested enemy Unit. Deal 1 damage to it.【Pilot】[Hayato Kobayashi]",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349545/gundam_cards/ST01-012.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630250
+    "deck_quantities": {
+      "ST01": 4
+    },
+    "last_updated": 1765777620
   },
   {
     "id": "ST01-013",
@@ -271,19 +259,18 @@
     "cost": 1,
     "hp": 0,
     "ap": 1,
-    "level": 3,
     "color": "Blue",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Main】Choose 1 friendly Unit. It recovers 3 HP.【Pilot】[Kai Shiden]",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349547/gundam_cards/ST01-013.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630250
+    "deck_quantities": {
+      "ST01": 2
+    },
+    "last_updated": 1765777621
   },
   {
     "id": "ST01-014",
@@ -293,19 +280,18 @@
     "cost": 1,
     "hp": 0,
     "ap": 0,
-    "level": 3,
     "color": "White",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Activate this card's 【Main】.【Main】/【Action】Choose 1 enemy Unit. It gets AP-3 during this turn.",
-    "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349549/gundam_cards/ST01-014.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630251
+    "deck_quantities": {
+      "ST01": 4
+    },
+    "last_updated": 1765777621
   },
   {
     "id": "ST01-015",
@@ -315,19 +301,18 @@
     "cost": 2,
     "hp": 5,
     "ap": 0,
-    "level": 3,
     "color": "Blue",
     "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Earth Federation) (White Base Team) (Warship)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "【Burst】Deploy this card.【Deploy】Add 1 of your Shields to your hand.\r\n【Activate･Main】【Once per Turn】②：Deploy 1 [Gundam]((White Base Team)･AP3･HP3) Unit token if you have no Units in play, deploy 1 [Guncannon]((White Base Team)･AP2･HP2) Unit token if you have only 1 Unit in play, or deploy 1 [Guntank]((White Base Team)･AP1･HP1) Unit token if you have 2 or more Units in play.",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349551/gundam_cards/ST01-015.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630251
+    "deck_quantities": {
+      "ST01": 2
+    },
+    "last_updated": 1765777622
   },
   {
     "id": "ST01-016",
@@ -337,19 +322,18 @@
     "cost": 1,
     "hp": 5,
     "ap": 0,
-    "level": 2,
     "color": "White",
     "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Academy) (Stronghold)",
-    "zone": "Space",
-    "link": "-",
     "effect_text": "【Burst】Deploy this card.【Deploy】Add 1 of your Shields to your hand.\r\n【Activate･Main】Rest this Base：All friendly Link Units get AP+1 during this turn.",
-    "source_title": "Mobile Suit Gundam the Witch from Mercury",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349553/gundam_cards/ST01-016.webp",
     "release_pack": "Heroic Beginnings [ST01]",
-    "last_updated": 1765630252
+    "deck_quantities": {
+      "ST01": 2
+    },
+    "last_updated": 1765777623
   },
   {
     "id": "ST02-001",
@@ -359,19 +343,18 @@
     "cost": 4,
     "hp": 5,
     "ap": 4,
-    "level": 6,
     "color": "Green",
     "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
-    "zone": "Space Earth",
-    "link": "[Heero Yuy]",
     "effect_text": "<Breach 5> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)This Unit may choose an active enemy Unit that is Lv.4 or lower as its attack target.",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349602/gundam_cards/ST02-001.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630281
+    "deck_quantities": {
+      "ST02": 2
+    },
+    "last_updated": 1765777630
   },
   {
     "id": "ST02-002",
@@ -381,19 +364,18 @@
     "cost": 3,
     "hp": 2,
     "ap": 2,
-    "level": 3,
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
-    "zone": "Space Earth",
-    "link": "[Heero Yuy]",
     "effect_text": "【Deploy】Place 1 EX Resource.",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349604/gundam_cards/ST02-002.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630282
+    "deck_quantities": {
+      "ST02": 4
+    },
+    "last_updated": 1765777631
   },
   {
     "id": "ST02-003",
@@ -403,19 +385,18 @@
     "cost": 3,
     "hp": 4,
     "ap": 3,
-    "level": 5,
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
-    "zone": "Earth",
-    "link": "[Trowa Barton]",
     "effect_text": "【During Pair】During your turn, when this Unit destroys an enemy Unit with battle damage, deal 1 damage to all enemy Units that are Lv.3 or lower.",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349605/gundam_cards/ST02-003.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630282
+    "deck_quantities": {
+      "ST02": 4
+    },
+    "last_updated": 1765777632
   },
   {
     "id": "ST02-004",
@@ -425,19 +406,18 @@
     "cost": 2,
     "hp": 3,
     "ap": 4,
-    "level": 4,
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
-    "zone": "Earth",
-    "link": "[Quatre Raberba Winner]",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349607/gundam_cards/ST02-004.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630283
+    "deck_quantities": {
+      "ST02": 2
+    },
+    "last_updated": 1765777632
   },
   {
     "id": "ST02-005",
@@ -447,19 +427,18 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
-    "level": 2,
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Maganac Corps)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349609/gundam_cards/ST02-005.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630283
+    "deck_quantities": {
+      "ST02": 4
+    },
+    "last_updated": 1765777633
   },
   {
     "id": "ST02-006",
@@ -469,19 +448,18 @@
     "cost": 4,
     "hp": 4,
     "ap": 4,
-    "level": 5,
     "color": "Blue",
     "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
-    "zone": "Space Earth",
-    "link": "[Zechs Merquise]",
     "effect_text": "【Activate･Main】【Once per Turn】④：Set this Unit as active.",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349611/gundam_cards/ST02-006.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630284
+    "deck_quantities": {
+      "ST02": 2
+    },
+    "last_updated": 1765777634
   },
   {
     "id": "ST02-007",
@@ -491,19 +469,18 @@
     "cost": 2,
     "hp": 2,
     "ap": 2,
-    "level": 2,
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
-    "zone": "Space Earth",
-    "link": "(OZ) Trait",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349613/gundam_cards/ST02-007.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630284
+    "deck_quantities": {
+      "ST02": 4
+    },
+    "last_updated": 1765777634
   },
   {
     "id": "ST02-008",
@@ -513,19 +490,18 @@
     "cost": 2,
     "hp": 1,
     "ap": 2,
-    "level": 2,
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
-    "zone": "Earth",
-    "link": "-",
     "effect_text": "<Blocker> (Rest this Unit to change the attack target to it.)",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349614/gundam_cards/ST02-008.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630285
+    "deck_quantities": {
+      "ST02": 2
+    },
+    "last_updated": 1765777635
   },
   {
     "id": "ST02-009",
@@ -535,19 +511,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
-    "level": 1,
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(OZ)",
-    "zone": "Earth",
-    "link": "-",
     "effect_text": "<Blocker> (Rest this Unit to change the attack target to it.)",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349616/gundam_cards/ST02-009.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630285
+    "deck_quantities": {
+      "ST02": 4
+    },
+    "last_updated": 1765777636
   },
   {
     "id": "ST02-010",
@@ -557,19 +532,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 2,
-    "level": 4,
     "color": "Green",
     "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Add this card to your hand.【During Link】This Unit gets AP+1 and HP+1.",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349618/gundam_cards/ST02-010.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630286
+    "deck_quantities": {
+      "ST02": 4
+    },
+    "last_updated": 1765777636
   },
   {
     "id": "ST02-011",
@@ -579,19 +553,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 2,
-    "level": 5,
     "color": "Blue",
     "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(OZ)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Add this card to your hand.【During Link】During your turn, when this Unit destroys an enemy Unit with battle damage, draw 1.",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349620/gundam_cards/ST02-011.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630286
+    "deck_quantities": {
+      "ST02": 4
+    },
+    "last_updated": 1765777637
   },
   {
     "id": "ST02-012",
@@ -601,19 +574,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
-    "level": 4,
     "color": "Green",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Main】Choose 1 of your Units. It gains <Breach 3> during this turn.\r\n(When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)【Pilot】[Trowa Barton]",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349622/gundam_cards/ST02-012.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630287
+    "deck_quantities": {
+      "ST02": 4
+    },
+    "last_updated": 1765777637
   },
   {
     "id": "ST02-013",
@@ -623,19 +595,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
-    "level": 0,
     "color": "Green",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Operation Meteor)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Action】During this battle, your shield area cards can't receive damage from enemy Units that are Lv.4 or lower.【Pilot】[Quatre Raberba Winner]",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349624/gundam_cards/ST02-013.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630287
+    "deck_quantities": {
+      "ST02": 2
+    },
+    "last_updated": 1765777638
   },
   {
     "id": "ST02-014",
@@ -645,19 +616,18 @@
     "cost": 1,
     "hp": 0,
     "ap": 0,
-    "level": 3,
     "color": "Blue",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Activate this card's 【Main】.【Main】/【Action】Choose 1 enemy Unit with 5 or less HP. Rest it.",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349626/gundam_cards/ST02-014.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630288
+    "deck_quantities": {
+      "ST02": 4
+    },
+    "last_updated": 1765777639
   },
   {
     "id": "ST02-015",
@@ -667,19 +637,18 @@
     "cost": 2,
     "hp": 5,
     "ap": 0,
-    "level": 2,
     "color": "Green",
     "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Academy) (Stronghold)",
-    "zone": "Earth",
-    "link": "-",
     "effect_text": "【Burst】Deploy this card.【Deploy】Add 1 of your Shields to your hand. Then, look at the top 2 cards of your deck and return 1 to the top and 1 to the bottom.",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349627/gundam_cards/ST02-015.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630289
+    "deck_quantities": {
+      "ST02": 2
+    },
+    "last_updated": 1765777639
   },
   {
     "id": "ST02-016",
@@ -689,19 +658,18 @@
     "cost": 3,
     "hp": 5,
     "ap": 0,
-    "level": 3,
     "color": "Blue",
     "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(OZ) (Stronghold)",
-    "zone": "Earth",
-    "link": "-",
     "effect_text": "【Burst】Deploy this card.【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, deploy 1 [Tallgeese]((OZ)･AP4･HP2) Unit token. If it is your turn and a card with \"Corsica Base\" in its card name is in your trash, deploy 2 [Leo]((OZ)･AP1･HP1) Unit tokens instead.",
-    "source_title": "Mobile Suit Gundam Wing",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349629/gundam_cards/ST02-016.webp",
     "release_pack": "Wings of Advance [ST02]",
-    "last_updated": 1765630289
+    "deck_quantities": {
+      "ST02": 2
+    },
+    "last_updated": 1765777640
   },
   {
     "id": "ST03-001",
@@ -711,19 +679,18 @@
     "cost": 5,
     "hp": 4,
     "ap": 5,
-    "level": 6,
     "color": "Red",
     "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
-    "zone": "Space Earth",
-    "link": "[Full Frontal]",
     "effect_text": "【During Pair】This Unit gains <High-Maneuver>.\r\n(This Unit can't be blocked.)During your turn, when this Unit destroys an enemy shield area card with battle damage, choose 1 enemy Unit. Deal 2 damage to it.",
-    "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349679/gundam_cards/ST03-001.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630319
+    "deck_quantities": {
+      "ST03": 2
+    },
+    "last_updated": 1765777648
   },
   {
     "id": "ST03-002",
@@ -733,19 +700,18 @@
     "cost": 3,
     "hp": 3,
     "ap": 3,
-    "level": 4,
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
-    "zone": "Space Earth",
-    "link": "[Angelo Sauper]",
     "effect_text": "【Activate･Main】<Support 2> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.)",
-    "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349680/gundam_cards/ST03-002.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630320
+    "deck_quantities": {
+      "ST03": 4
+    },
+    "last_updated": 1765777648
   },
   {
     "id": "ST03-003",
@@ -755,19 +721,18 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
-    "level": 3,
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
-    "zone": "Space Earth",
-    "link": "(Neo Zeon) Trait",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349682/gundam_cards/ST03-003.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630321
+    "deck_quantities": {
+      "ST03": 4
+    },
+    "last_updated": 1765777649
   },
   {
     "id": "ST03-004",
@@ -777,19 +742,18 @@
     "cost": 2,
     "hp": 1,
     "ap": 2,
-    "level": 2,
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "【Activate･Main】<Support 2> (Rest this Unit. 1 other friendly Unit gets AP+(specified amount) during this turn.)",
-    "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349684/gundam_cards/ST03-004.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630321
+    "deck_quantities": {
+      "ST03": 4
+    },
+    "last_updated": 1765777650
   },
   {
     "id": "ST03-005",
@@ -799,19 +763,18 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
-    "level": 1,
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
-    "zone": "Space",
-    "link": "-",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349686/gundam_cards/ST03-005.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630322
+    "deck_quantities": {
+      "ST03": 2
+    },
+    "last_updated": 1765777650
   },
   {
     "id": "ST03-006",
@@ -821,19 +784,18 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
-    "level": 3,
     "color": "Green",
     "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
-    "zone": "Space Earth",
-    "link": "[Char Aznable]",
     "effect_text": "【Destroyed】Look at the top 3 cards of your deck. You may reveal 1 (Zeon)/(Neo Zeon) Unit card among them and add it to your hand. Return the remaining cards randomly to the bottom of your deck.",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349687/gundam_cards/ST03-006.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630322
+    "deck_quantities": {
+      "ST03": 2
+    },
+    "last_updated": 1765777651
   },
   {
     "id": "ST03-007",
@@ -843,19 +805,18 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
-    "level": 1,
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349689/gundam_cards/ST03-007.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630323
+    "deck_quantities": {
+      "ST03": 4
+    },
+    "last_updated": 1765777652
   },
   {
     "id": "ST03-008",
@@ -865,19 +826,18 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
-    "level": 2,
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "【Attack】This Unit gets AP+2 during this turn.",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349691/gundam_cards/ST03-008.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630323
+    "deck_quantities": {
+      "ST03": 4
+    },
+    "last_updated": 1765777652
   },
   {
     "id": "ST03-009",
@@ -887,19 +847,18 @@
     "cost": 3,
     "hp": 3,
     "ap": 0,
-    "level": 3,
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Zeon)",
-    "zone": "Earth",
-    "link": "[Ramba Ral]",
     "effect_text": "【Deploy】Deploy 1 rested [Zaku Ⅱ]((Zeon)･AP1･HP1) Unit token.",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349693/gundam_cards/ST03-009.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630324
+    "deck_quantities": {
+      "ST03": 2
+    },
+    "last_updated": 1765777653
   },
   {
     "id": "ST03-010",
@@ -909,19 +868,18 @@
     "cost": 0,
     "hp": 2,
     "ap": 2,
-    "level": 6,
     "color": "Red",
     "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Neo Zeon) (Cyber-Newtype)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Add this card to your hand.【When Paired】You may deploy 1 (Neo Zeon)/(Zeon) Unit card that is Lv.4 or lower from your hand.",
-    "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349694/gundam_cards/ST03-010.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630324
+    "deck_quantities": {
+      "ST03": 4
+    },
+    "last_updated": 1765777654
   },
   {
     "id": "ST03-011",
@@ -931,19 +889,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
-    "level": 3,
     "color": "Green",
     "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Zeon) (Newtype)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Add this card to your hand.【Attack】During this turn, this Unit gets AP+1 and, if it is a Link Unit, it gains <High-Maneuver>.\r\n(This Unit can't be blocked.)",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349696/gundam_cards/ST03-011.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630325
+    "deck_quantities": {
+      "ST03": 4
+    },
+    "last_updated": 1765777654
   },
   {
     "id": "ST03-012",
@@ -953,19 +910,18 @@
     "cost": 1,
     "hp": 0,
     "ap": 1,
-    "level": 2,
     "color": "Red",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Neo Zeon)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Main】/【Action】Choose 1 friendly Unit. It gets AP+2 during this turn.【Pilot】[Angelo Sauper]",
-    "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349698/gundam_cards/ST03-012.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630325
+    "deck_quantities": {
+      "ST03": 4
+    },
+    "last_updated": 1765777655
   },
   {
     "id": "ST03-013",
@@ -975,19 +931,18 @@
     "cost": 2,
     "hp": 0,
     "ap": 0,
-    "level": 2,
     "color": "Red",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Activate this card's 【Main】.【Main】/【Action】Choose 1 enemy Unit. Deal 2 damage to it.",
-    "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349700/gundam_cards/ST03-013.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630326
+    "deck_quantities": {
+      "ST03": 2
+    },
+    "last_updated": 1765777655
   },
   {
     "id": "ST03-014",
@@ -997,19 +952,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 0,
-    "level": 4,
     "color": "Green",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Zeon)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Action】Choose 1 friendly Unit. It can't receive battle damage from enemy Units with 2 or less AP during this battle.【Pilot】[Ramba Ral]",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349702/gundam_cards/ST03-014.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630326
+    "deck_quantities": {
+      "ST03": 4
+    },
+    "last_updated": 1765777656
   },
   {
     "id": "ST03-015",
@@ -1019,19 +973,18 @@
     "cost": 2,
     "hp": 5,
     "ap": 0,
-    "level": 3,
     "color": "Red",
     "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Neo Zeon) (Warship)",
-    "zone": "Space",
-    "link": "-",
     "effect_text": "【Burst】Deploy this card.【Deploy】Add 1 of your Shields to your hand. Then, choose 1 enemy Unit with 5 or less AP. Deal 1 damage to it.",
-    "source_title": "Mobile Suit Gundam Unicorn",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349703/gundam_cards/ST03-015.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630327
+    "deck_quantities": {
+      "ST03": 2
+    },
+    "last_updated": 1765777657
   },
   {
     "id": "ST03-016",
@@ -1041,19 +994,18 @@
     "cost": 2,
     "hp": 5,
     "ap": 0,
-    "level": 3,
     "color": "Green",
     "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Zeon) (Warship)",
-    "zone": "Space",
-    "link": "-",
     "effect_text": "【Burst】Deploy this card.【Deploy】Add 1 of your Shields to your hand. Then, if it is your turn, deploy 1 rested [Char's Zaku Ⅱ]((Zeon)･AP3･HP1) Unit token.",
-    "source_title": "Mobile Suit Gundam",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349705/gundam_cards/ST03-016.webp",
     "release_pack": "Zeon's Rush [ST03]",
-    "last_updated": 1765630328
+    "deck_quantities": {
+      "ST03": 2
+    },
+    "last_updated": 1765777657
   },
   {
     "id": "ST04-001",
@@ -1063,19 +1015,18 @@
     "cost": 4,
     "hp": 4,
     "ap": 4,
-    "level": 5,
     "color": "White",
     "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
-    "zone": "Space Earth",
-    "link": "[Kira Yamato]",
     "effect_text": "<Blocker> (Rest this Unit to change the attack target to it.)【When Paired･Lv.4 or Higher Pilot】Choose 1 enemy Unit with 4 or less HP. Return it to its owner's hand.",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349755/gundam_cards/ST04-001.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630358
+    "deck_quantities": {
+      "ST04": 2
+    },
+    "last_updated": 1765777665
   },
   {
     "id": "ST04-002",
@@ -1085,19 +1036,18 @@
     "cost": 2,
     "hp": 3,
     "ap": 3,
-    "level": 4,
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
-    "zone": "Space Earth",
-    "link": "[Kira Yamato]",
     "effect_text": "【Deploy】Draw 1. Then, discard 1.",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349757/gundam_cards/ST04-002.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630358
+    "deck_quantities": {
+      "ST04": 4
+    },
+    "last_updated": 1765777666
   },
   {
     "id": "ST04-003",
@@ -1107,19 +1057,18 @@
     "cost": 2,
     "hp": 4,
     "ap": 2,
-    "level": 3,
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
-    "zone": "Space",
-    "link": "[Mu La Flaga]",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349758/gundam_cards/ST04-003.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630359
+    "deck_quantities": {
+      "ST04": 4
+    },
+    "last_updated": 1765777666
   },
   {
     "id": "ST04-004",
@@ -1129,19 +1078,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
-    "level": 1,
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
-    "zone": "Space",
-    "link": "-",
     "effect_text": "<Blocker> (Rest this Unit to change the attack target to it.)",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349760/gundam_cards/ST04-004.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630359
+    "deck_quantities": {
+      "ST04": 2
+    },
+    "last_updated": 1765777667
   },
   {
     "id": "ST04-005",
@@ -1151,19 +1099,18 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
-    "level": 2,
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349762/gundam_cards/ST04-005.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630360
+    "deck_quantities": {
+      "ST04": 4
+    },
+    "last_updated": 1765777668
   },
   {
     "id": "ST04-006",
@@ -1173,19 +1120,18 @@
     "cost": 3,
     "hp": 3,
     "ap": 0,
-    "level": 4,
     "color": "Red",
     "rarity": "LR",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
-    "zone": "Space Earth",
-    "link": "[Athrun Zala]",
     "effect_text": "【Attack】If this Unit has 5 or more AP, choose 1 enemy Unit that is Lv.5 or higher. Deal 3 damage to it.",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349764/gundam_cards/ST04-006.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630360
+    "deck_quantities": {
+      "ST04": 2
+    },
+    "last_updated": 1765777668
   },
   {
     "id": "ST04-007",
@@ -1195,19 +1141,18 @@
     "cost": 3,
     "hp": 4,
     "ap": 3,
-    "level": 4,
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
-    "zone": "Space Earth",
-    "link": "[Athrun Zala]",
     "effect_text": "<Breach 3> (When this Unit's attack destroys an enemy Unit, deal the specified amount of damage to the first card in that opponent's shield area.)",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349766/gundam_cards/ST04-007.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630361
+    "deck_quantities": {
+      "ST04": 4
+    },
+    "last_updated": 1765777669
   },
   {
     "id": "ST04-008",
@@ -1217,19 +1162,18 @@
     "cost": 1,
     "hp": 2,
     "ap": 2,
-    "level": 2,
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "-",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349768/gundam_cards/ST04-008.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630361
+    "deck_quantities": {
+      "ST04": 2
+    },
+    "last_updated": 1765777670
   },
   {
     "id": "ST04-009",
@@ -1239,19 +1183,18 @@
     "cost": 2,
     "hp": 1,
     "ap": 3,
-    "level": 2,
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
     "block_icon": 1,
     "trait": "(ZAFT)",
-    "zone": "Space Earth",
-    "link": "[Miguel Ayman]",
     "effect_text": "【During Pair】【Destroyed】If you have another Link Unit in play, draw 1.",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349770/gundam_cards/ST04-009.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630362
+    "deck_quantities": {
+      "ST04": 4
+    },
+    "last_updated": 1765777670
   },
   {
     "id": "ST04-010",
@@ -1261,19 +1204,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 2,
-    "level": 4,
     "color": "White",
     "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(Earth Alliance) (Coordinator)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Add this card to your hand.【Attack】Choose 1 enemy Unit. It gets AP-2 during this battle.",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349772/gundam_cards/ST04-010.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630362
+    "deck_quantities": {
+      "ST04": 4
+    },
+    "last_updated": 1765777671
   },
   {
     "id": "ST04-011",
@@ -1283,19 +1225,18 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
-    "level": 4,
     "color": "Red",
     "rarity": "C",
     "type": "PILOT",
     "block_icon": 1,
     "trait": "(ZAFT) (Coordinator)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】Add this card to your hand.【When Linked】During this turn, this Unit may choose an active enemy Unit that is Lv.5 or lower as its attack target.",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349774/gundam_cards/ST04-011.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630363
+    "deck_quantities": {
+      "ST04": 4
+    },
+    "last_updated": 1765777672
   },
   {
     "id": "ST04-012",
@@ -1305,19 +1246,18 @@
     "cost": 2,
     "hp": 0,
     "ap": 0,
-    "level": 4,
     "color": "White",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "-",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Burst】If you have no (Earth Alliance) Unit tokens in play, deploy 1 [Aile Strike Gundam]((Earth Alliance)･AP3･HP3･<Blocker>) Unit token.【Main】If you have no (Earth Alliance) Unit tokens in play, deploy 1 [Sword Strike Gundam]((Earth Alliance)･AP4･HP2･<Blocker>) or 1 [Launcher Strike Gundam]((Earth Alliance)･AP2･HP4･<Blocker>) Unit token.",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349776/gundam_cards/ST04-012.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630363
+    "deck_quantities": {
+      "ST04": 4
+    },
+    "last_updated": 1765777672
   },
   {
     "id": "ST04-013",
@@ -1327,19 +1267,18 @@
     "cost": 1,
     "hp": 0,
     "ap": 1,
-    "level": 2,
     "color": "White",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(Earth Alliance)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Main】/【Action】Choose 1 enemy Unit with 3 or less HP. Return it to its owner's hand.【Pilot】[Mu La Flaga]",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349778/gundam_cards/ST04-013.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630364
+    "deck_quantities": {
+      "ST04": 2
+    },
+    "last_updated": 1765777673
   },
   {
     "id": "ST04-014",
@@ -1349,19 +1288,18 @@
     "cost": 1,
     "hp": 1,
     "ap": 0,
-    "level": 3,
     "color": "Red",
     "rarity": "C",
     "type": "COMMAND",
     "block_icon": 1,
     "trait": "(ZAFT) (Coordinator)",
-    "zone": "-",
-    "link": "-",
     "effect_text": "【Main】/【Action】Choose 1 friendly Unit that is Lv.2 or lower. It gains <First Strike> during this turn.\n(While this Unit is attacking, it deals damage before the enemy Unit.)【Pilot】[Miguel Ayman]",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349779/gundam_cards/ST04-014.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630364
+    "deck_quantities": {
+      "ST04": 4
+    },
+    "last_updated": 1765777673
   },
   {
     "id": "ST04-015",
@@ -1371,19 +1309,18 @@
     "cost": 1,
     "hp": 5,
     "ap": 0,
-    "level": 3,
     "color": "White",
     "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(Earth Alliance) (Warship)",
-    "zone": "Space Earth",
-    "link": "-",
     "effect_text": "【Burst】Deploy this card.【Deploy】Add 1 of your Shields to your hand.\n【Activate･Main】【Once per Turn】②：Choose 1 friendly Unit with <Blocker>. Set it as active. It can't attack during this turn.",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349781/gundam_cards/ST04-015.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630365
+    "deck_quantities": {
+      "ST04": 2
+    },
+    "last_updated": 1765777674
   },
   {
     "id": "ST04-016",
@@ -1393,19 +1330,18 @@
     "cost": 1,
     "hp": 5,
     "ap": 0,
-    "level": 3,
     "color": "Red",
     "rarity": "C",
     "type": "BASE",
     "block_icon": 1,
     "trait": "(ZAFT) (Warship)",
-    "zone": "Space",
-    "link": "-",
     "effect_text": "【Burst】Deploy this card.【Deploy】Add 1 of your Shields to your hand.\n【Activate･Main】Rest this Base：Choose 1 friendly Unit. It gets AP+1 during this turn.",
-    "source_title": "Mobile Suit Gundam SEED",
     "image_url": "https://res.cloudinary.com/dkwr3cjth/image/upload/v1765349783/gundam_cards/ST04-016.webp",
     "release_pack": "SEED Strike [ST04]",
-    "last_updated": 1765630365
+    "deck_quantities": {
+      "ST04": 2
+    },
+    "last_updated": 1765777675
   },
   {
     "id": "ST05-001",
