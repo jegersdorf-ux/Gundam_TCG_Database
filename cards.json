@@ -7,6 +7,8 @@
     "cost": 3,
     "hp": 4,
     "ap": 0,
+    "level": 4,
+    "link": "[Amuro Ray]",
     "color": "Blue",
     "rarity": "LR",
     "type": "UNIT",
@@ -18,7 +20,7 @@
     "deck_quantities": {
       "ST01": 2
     },
-    "last_updated": 1765777613
+    "last_updated": 1765858194
   },
   {
     "id": "ST01-002",
@@ -28,6 +30,8 @@
     "cost": 3,
     "hp": 3,
     "ap": 4,
+    "level": 5,
+    "link": "[Amuro Ray]",
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
@@ -39,7 +43,7 @@
     "deck_quantities": {
       "ST01": 4
     },
-    "last_updated": 1765777614
+    "last_updated": 1765858195
   },
   {
     "id": "ST01-003",
@@ -49,6 +53,8 @@
     "cost": 2,
     "hp": 4,
     "ap": 2,
+    "level": 3,
+    "link": "[Kai Shiden]",
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
@@ -60,7 +66,7 @@
     "deck_quantities": {
       "ST01": 4
     },
-    "last_updated": 1765777614
+    "last_updated": 1765858195
   },
   {
     "id": "ST01-004",
@@ -70,6 +76,8 @@
     "cost": 2,
     "hp": 3,
     "ap": 2,
+    "level": 3,
+    "link": "[Hayato Kobayashi]",
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
@@ -81,7 +89,7 @@
     "deck_quantities": {
       "ST01": 2
     },
-    "last_updated": 1765777615
+    "last_updated": 1765858196
   },
   {
     "id": "ST01-005",
@@ -91,6 +99,8 @@
     "cost": 1,
     "hp": 2,
     "ap": 2,
+    "level": 2,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
@@ -102,7 +112,7 @@
     "deck_quantities": {
       "ST01": 4
     },
-    "last_updated": 1765777616
+    "last_updated": 1765858197
   },
   {
     "id": "ST01-006",
@@ -112,6 +122,8 @@
     "cost": 4,
     "hp": 4,
     "ap": 4,
+    "level": 5,
+    "link": "[Suletta Mercury]",
     "color": "White",
     "rarity": "LR",
     "type": "UNIT",
@@ -123,7 +135,7 @@
     "deck_quantities": {
       "ST01": 2
     },
-    "last_updated": 1765777616
+    "last_updated": 1765858197
   },
   {
     "id": "ST01-007",
@@ -133,6 +145,8 @@
     "cost": 2,
     "hp": 4,
     "ap": 3,
+    "level": 4,
+    "link": "[Suletta Mercury]",
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
@@ -144,7 +158,7 @@
     "deck_quantities": {
       "ST01": 4
     },
-    "last_updated": 1765777617
+    "last_updated": 1765858198
   },
   {
     "id": "ST01-008",
@@ -154,6 +168,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
+    "level": 1,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
@@ -165,7 +181,7 @@
     "deck_quantities": {
       "ST01": 2
     },
-    "last_updated": 1765777617
+    "last_updated": 1765858199
   },
   {
     "id": "ST01-009",
@@ -175,6 +191,8 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
+    "level": 2,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
@@ -186,7 +204,7 @@
     "deck_quantities": {
       "ST01": 4
     },
-    "last_updated": 1765777618
+    "last_updated": 1765858199
   },
   {
     "id": "ST01-010",
@@ -196,6 +214,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 2,
+    "level": 4,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "PILOT",
@@ -207,7 +227,7 @@
     "deck_quantities": {
       "ST01": 4
     },
-    "last_updated": 1765777619
+    "last_updated": 1765858200
   },
   {
     "id": "ST01-011",
@@ -217,6 +237,8 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
+    "level": 4,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "PILOT",
@@ -228,7 +250,7 @@
     "deck_quantities": {
       "ST01": 4
     },
-    "last_updated": 1765777619
+    "last_updated": 1765858201
   },
   {
     "id": "ST01-012",
@@ -238,6 +260,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 0,
+    "level": 2,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "COMMAND",
@@ -249,7 +273,7 @@
     "deck_quantities": {
       "ST01": 4
     },
-    "last_updated": 1765777620
+    "last_updated": 1765858202
   },
   {
     "id": "ST01-013",
@@ -259,6 +283,8 @@
     "cost": 1,
     "hp": 0,
     "ap": 1,
+    "level": 3,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "COMMAND",
@@ -270,7 +296,7 @@
     "deck_quantities": {
       "ST01": 2
     },
-    "last_updated": 1765777621
+    "last_updated": 1765858202
   },
   {
     "id": "ST01-014",
@@ -280,6 +306,8 @@
     "cost": 1,
     "hp": 0,
     "ap": 0,
+    "level": 3,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "COMMAND",
@@ -291,7 +319,7 @@
     "deck_quantities": {
       "ST01": 4
     },
-    "last_updated": 1765777621
+    "last_updated": 1765858203
   },
   {
     "id": "ST01-015",
@@ -301,6 +329,8 @@
     "cost": 2,
     "hp": 5,
     "ap": 0,
+    "level": 3,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "BASE",
@@ -312,7 +342,7 @@
     "deck_quantities": {
       "ST01": 2
     },
-    "last_updated": 1765777622
+    "last_updated": 1765858204
   },
   {
     "id": "ST01-016",
@@ -322,6 +352,8 @@
     "cost": 1,
     "hp": 5,
     "ap": 0,
+    "level": 2,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "BASE",
@@ -333,7 +365,7 @@
     "deck_quantities": {
       "ST01": 2
     },
-    "last_updated": 1765777623
+    "last_updated": 1765858204
   },
   {
     "id": "ST02-001",
@@ -343,6 +375,8 @@
     "cost": 4,
     "hp": 5,
     "ap": 4,
+    "level": 6,
+    "link": "[Heero Yuy]",
     "color": "Green",
     "rarity": "LR",
     "type": "UNIT",
@@ -354,7 +388,7 @@
     "deck_quantities": {
       "ST02": 2
     },
-    "last_updated": 1765777630
+    "last_updated": 1765858212
   },
   {
     "id": "ST02-002",
@@ -364,6 +398,8 @@
     "cost": 3,
     "hp": 2,
     "ap": 2,
+    "level": 3,
+    "link": "[Heero Yuy]",
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
@@ -375,7 +411,7 @@
     "deck_quantities": {
       "ST02": 4
     },
-    "last_updated": 1765777631
+    "last_updated": 1765858213
   },
   {
     "id": "ST02-003",
@@ -385,6 +421,8 @@
     "cost": 3,
     "hp": 4,
     "ap": 3,
+    "level": 5,
+    "link": "[Trowa Barton]",
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
@@ -396,7 +434,7 @@
     "deck_quantities": {
       "ST02": 4
     },
-    "last_updated": 1765777632
+    "last_updated": 1765858214
   },
   {
     "id": "ST02-004",
@@ -406,6 +444,8 @@
     "cost": 2,
     "hp": 3,
     "ap": 4,
+    "level": 4,
+    "link": "[Quatre Raberba Winner]",
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
@@ -417,7 +457,7 @@
     "deck_quantities": {
       "ST02": 2
     },
-    "last_updated": 1765777632
+    "last_updated": 1765858214
   },
   {
     "id": "ST02-005",
@@ -427,6 +467,8 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
+    "level": 2,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
@@ -438,7 +480,7 @@
     "deck_quantities": {
       "ST02": 4
     },
-    "last_updated": 1765777633
+    "last_updated": 1765858215
   },
   {
     "id": "ST02-006",
@@ -448,6 +490,8 @@
     "cost": 4,
     "hp": 4,
     "ap": 4,
+    "level": 5,
+    "link": "[Zechs Merquise]",
     "color": "Blue",
     "rarity": "LR",
     "type": "UNIT",
@@ -459,7 +503,7 @@
     "deck_quantities": {
       "ST02": 2
     },
-    "last_updated": 1765777634
+    "last_updated": 1765858216
   },
   {
     "id": "ST02-007",
@@ -469,6 +513,8 @@
     "cost": 2,
     "hp": 2,
     "ap": 2,
+    "level": 2,
+    "link": "(OZ) Trait",
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
@@ -480,7 +526,7 @@
     "deck_quantities": {
       "ST02": 4
     },
-    "last_updated": 1765777634
+    "last_updated": 1765858217
   },
   {
     "id": "ST02-008",
@@ -490,6 +536,8 @@
     "cost": 2,
     "hp": 1,
     "ap": 2,
+    "level": 2,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
@@ -501,7 +549,7 @@
     "deck_quantities": {
       "ST02": 2
     },
-    "last_updated": 1765777635
+    "last_updated": 1765858217
   },
   {
     "id": "ST02-009",
@@ -511,6 +559,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
+    "level": 1,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "UNIT",
@@ -522,7 +572,7 @@
     "deck_quantities": {
       "ST02": 4
     },
-    "last_updated": 1765777636
+    "last_updated": 1765858218
   },
   {
     "id": "ST02-010",
@@ -532,6 +582,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 2,
+    "level": 4,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "PILOT",
@@ -543,7 +595,7 @@
     "deck_quantities": {
       "ST02": 4
     },
-    "last_updated": 1765777636
+    "last_updated": 1765858219
   },
   {
     "id": "ST02-011",
@@ -553,6 +605,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 2,
+    "level": 5,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "PILOT",
@@ -564,7 +618,7 @@
     "deck_quantities": {
       "ST02": 4
     },
-    "last_updated": 1765777637
+    "last_updated": 1765858219
   },
   {
     "id": "ST02-012",
@@ -574,6 +628,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
+    "level": 4,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "COMMAND",
@@ -585,7 +641,7 @@
     "deck_quantities": {
       "ST02": 4
     },
-    "last_updated": 1765777637
+    "last_updated": 1765858220
   },
   {
     "id": "ST02-013",
@@ -595,6 +651,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
+    "level": 0,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "COMMAND",
@@ -606,7 +664,7 @@
     "deck_quantities": {
       "ST02": 2
     },
-    "last_updated": 1765777638
+    "last_updated": 1765858221
   },
   {
     "id": "ST02-014",
@@ -616,6 +674,8 @@
     "cost": 1,
     "hp": 0,
     "ap": 0,
+    "level": 3,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "COMMAND",
@@ -627,7 +687,7 @@
     "deck_quantities": {
       "ST02": 4
     },
-    "last_updated": 1765777639
+    "last_updated": 1765858221
   },
   {
     "id": "ST02-015",
@@ -637,6 +697,8 @@
     "cost": 2,
     "hp": 5,
     "ap": 0,
+    "level": 2,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "BASE",
@@ -648,7 +710,7 @@
     "deck_quantities": {
       "ST02": 2
     },
-    "last_updated": 1765777639
+    "last_updated": 1765858222
   },
   {
     "id": "ST02-016",
@@ -658,6 +720,8 @@
     "cost": 3,
     "hp": 5,
     "ap": 0,
+    "level": 3,
+    "link": "-",
     "color": "Blue",
     "rarity": "C",
     "type": "BASE",
@@ -669,7 +733,7 @@
     "deck_quantities": {
       "ST02": 2
     },
-    "last_updated": 1765777640
+    "last_updated": 1765858223
   },
   {
     "id": "ST03-001",
@@ -679,6 +743,8 @@
     "cost": 5,
     "hp": 4,
     "ap": 5,
+    "level": 6,
+    "link": "[Full Frontal]",
     "color": "Red",
     "rarity": "LR",
     "type": "UNIT",
@@ -690,7 +756,7 @@
     "deck_quantities": {
       "ST03": 2
     },
-    "last_updated": 1765777648
+    "last_updated": 1765858231
   },
   {
     "id": "ST03-002",
@@ -700,6 +766,8 @@
     "cost": 3,
     "hp": 3,
     "ap": 3,
+    "level": 4,
+    "link": "[Angelo Sauper]",
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
@@ -711,7 +779,7 @@
     "deck_quantities": {
       "ST03": 4
     },
-    "last_updated": 1765777648
+    "last_updated": 1765858232
   },
   {
     "id": "ST03-003",
@@ -721,6 +789,8 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
+    "level": 3,
+    "link": "(Neo Zeon) Trait",
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
@@ -732,7 +802,7 @@
     "deck_quantities": {
       "ST03": 4
     },
-    "last_updated": 1765777649
+    "last_updated": 1765858232
   },
   {
     "id": "ST03-004",
@@ -742,6 +812,8 @@
     "cost": 2,
     "hp": 1,
     "ap": 2,
+    "level": 2,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
@@ -753,7 +825,7 @@
     "deck_quantities": {
       "ST03": 4
     },
-    "last_updated": 1765777650
+    "last_updated": 1765858233
   },
   {
     "id": "ST03-005",
@@ -763,6 +835,8 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
+    "level": 1,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
@@ -774,7 +848,7 @@
     "deck_quantities": {
       "ST03": 2
     },
-    "last_updated": 1765777650
+    "last_updated": 1765858234
   },
   {
     "id": "ST03-006",
@@ -784,6 +858,8 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
+    "level": 3,
+    "link": "[Char Aznable]",
     "color": "Green",
     "rarity": "LR",
     "type": "UNIT",
@@ -795,7 +871,7 @@
     "deck_quantities": {
       "ST03": 2
     },
-    "last_updated": 1765777651
+    "last_updated": 1765858234
   },
   {
     "id": "ST03-007",
@@ -805,6 +881,8 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
+    "level": 1,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
@@ -816,7 +894,7 @@
     "deck_quantities": {
       "ST03": 4
     },
-    "last_updated": 1765777652
+    "last_updated": 1765858235
   },
   {
     "id": "ST03-008",
@@ -826,6 +904,8 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
+    "level": 2,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
@@ -837,7 +917,7 @@
     "deck_quantities": {
       "ST03": 4
     },
-    "last_updated": 1765777652
+    "last_updated": 1765858236
   },
   {
     "id": "ST03-009",
@@ -847,6 +927,8 @@
     "cost": 3,
     "hp": 3,
     "ap": 0,
+    "level": 3,
+    "link": "[Ramba Ral]",
     "color": "Green",
     "rarity": "C",
     "type": "UNIT",
@@ -858,7 +940,7 @@
     "deck_quantities": {
       "ST03": 2
     },
-    "last_updated": 1765777653
+    "last_updated": 1765858237
   },
   {
     "id": "ST03-010",
@@ -868,6 +950,8 @@
     "cost": 0,
     "hp": 2,
     "ap": 2,
+    "level": 6,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "PILOT",
@@ -879,7 +963,7 @@
     "deck_quantities": {
       "ST03": 4
     },
-    "last_updated": 1765777654
+    "last_updated": 1765858237
   },
   {
     "id": "ST03-011",
@@ -889,6 +973,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
+    "level": 3,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "PILOT",
@@ -900,7 +986,7 @@
     "deck_quantities": {
       "ST03": 4
     },
-    "last_updated": 1765777654
+    "last_updated": 1765858238
   },
   {
     "id": "ST03-012",
@@ -910,6 +996,8 @@
     "cost": 1,
     "hp": 0,
     "ap": 1,
+    "level": 2,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "COMMAND",
@@ -921,7 +1009,7 @@
     "deck_quantities": {
       "ST03": 4
     },
-    "last_updated": 1765777655
+    "last_updated": 1765858239
   },
   {
     "id": "ST03-013",
@@ -931,6 +1019,8 @@
     "cost": 2,
     "hp": 0,
     "ap": 0,
+    "level": 2,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "COMMAND",
@@ -942,7 +1032,7 @@
     "deck_quantities": {
       "ST03": 2
     },
-    "last_updated": 1765777655
+    "last_updated": 1765858240
   },
   {
     "id": "ST03-014",
@@ -952,6 +1042,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 0,
+    "level": 4,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "COMMAND",
@@ -963,7 +1055,7 @@
     "deck_quantities": {
       "ST03": 4
     },
-    "last_updated": 1765777656
+    "last_updated": 1765858240
   },
   {
     "id": "ST03-015",
@@ -973,6 +1065,8 @@
     "cost": 2,
     "hp": 5,
     "ap": 0,
+    "level": 3,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "BASE",
@@ -984,7 +1078,7 @@
     "deck_quantities": {
       "ST03": 2
     },
-    "last_updated": 1765777657
+    "last_updated": 1765858241
   },
   {
     "id": "ST03-016",
@@ -994,6 +1088,8 @@
     "cost": 2,
     "hp": 5,
     "ap": 0,
+    "level": 3,
+    "link": "-",
     "color": "Green",
     "rarity": "C",
     "type": "BASE",
@@ -1005,7 +1101,7 @@
     "deck_quantities": {
       "ST03": 2
     },
-    "last_updated": 1765777657
+    "last_updated": 1765858242
   },
   {
     "id": "ST04-001",
@@ -1015,6 +1111,8 @@
     "cost": 4,
     "hp": 4,
     "ap": 4,
+    "level": 5,
+    "link": "[Kira Yamato]",
     "color": "White",
     "rarity": "LR",
     "type": "UNIT",
@@ -1026,7 +1124,7 @@
     "deck_quantities": {
       "ST04": 2
     },
-    "last_updated": 1765777665
+    "last_updated": 1765858250
   },
   {
     "id": "ST04-002",
@@ -1036,6 +1134,8 @@
     "cost": 2,
     "hp": 3,
     "ap": 3,
+    "level": 4,
+    "link": "[Kira Yamato]",
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
@@ -1047,7 +1147,7 @@
     "deck_quantities": {
       "ST04": 4
     },
-    "last_updated": 1765777666
+    "last_updated": 1765858251
   },
   {
     "id": "ST04-003",
@@ -1057,6 +1157,8 @@
     "cost": 2,
     "hp": 4,
     "ap": 2,
+    "level": 3,
+    "link": "[Mu La Flaga]",
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
@@ -1068,7 +1170,7 @@
     "deck_quantities": {
       "ST04": 4
     },
-    "last_updated": 1765777666
+    "last_updated": 1765858251
   },
   {
     "id": "ST04-004",
@@ -1078,6 +1180,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 1,
+    "level": 1,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
@@ -1089,7 +1193,7 @@
     "deck_quantities": {
       "ST04": 2
     },
-    "last_updated": 1765777667
+    "last_updated": 1765858252
   },
   {
     "id": "ST04-005",
@@ -1099,6 +1203,8 @@
     "cost": 2,
     "hp": 2,
     "ap": 3,
+    "level": 2,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "UNIT",
@@ -1110,7 +1216,7 @@
     "deck_quantities": {
       "ST04": 4
     },
-    "last_updated": 1765777668
+    "last_updated": 1765858253
   },
   {
     "id": "ST04-006",
@@ -1120,6 +1226,8 @@
     "cost": 3,
     "hp": 3,
     "ap": 0,
+    "level": 4,
+    "link": "[Athrun Zala]",
     "color": "Red",
     "rarity": "LR",
     "type": "UNIT",
@@ -1131,7 +1239,7 @@
     "deck_quantities": {
       "ST04": 2
     },
-    "last_updated": 1765777668
+    "last_updated": 1765858253
   },
   {
     "id": "ST04-007",
@@ -1141,6 +1249,8 @@
     "cost": 3,
     "hp": 4,
     "ap": 3,
+    "level": 4,
+    "link": "[Athrun Zala]",
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
@@ -1152,7 +1262,7 @@
     "deck_quantities": {
       "ST04": 4
     },
-    "last_updated": 1765777669
+    "last_updated": 1765858254
   },
   {
     "id": "ST04-008",
@@ -1162,6 +1272,8 @@
     "cost": 1,
     "hp": 2,
     "ap": 2,
+    "level": 2,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
@@ -1173,7 +1285,7 @@
     "deck_quantities": {
       "ST04": 2
     },
-    "last_updated": 1765777670
+    "last_updated": 1765858255
   },
   {
     "id": "ST04-009",
@@ -1183,6 +1295,8 @@
     "cost": 2,
     "hp": 1,
     "ap": 3,
+    "level": 2,
+    "link": "[Miguel Ayman]",
     "color": "Red",
     "rarity": "C",
     "type": "UNIT",
@@ -1194,7 +1308,7 @@
     "deck_quantities": {
       "ST04": 4
     },
-    "last_updated": 1765777670
+    "last_updated": 1765858255
   },
   {
     "id": "ST04-010",
@@ -1204,6 +1318,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 2,
+    "level": 4,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "PILOT",
@@ -1215,7 +1331,7 @@
     "deck_quantities": {
       "ST04": 4
     },
-    "last_updated": 1765777671
+    "last_updated": 1765858256
   },
   {
     "id": "ST04-011",
@@ -1225,6 +1341,8 @@
     "cost": 1,
     "hp": 2,
     "ap": 1,
+    "level": 4,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "PILOT",
@@ -1236,7 +1354,7 @@
     "deck_quantities": {
       "ST04": 4
     },
-    "last_updated": 1765777672
+    "last_updated": 1765858257
   },
   {
     "id": "ST04-012",
@@ -1246,6 +1364,8 @@
     "cost": 2,
     "hp": 0,
     "ap": 0,
+    "level": 4,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "COMMAND",
@@ -1257,7 +1377,7 @@
     "deck_quantities": {
       "ST04": 4
     },
-    "last_updated": 1765777672
+    "last_updated": 1765858258
   },
   {
     "id": "ST04-013",
@@ -1267,6 +1387,8 @@
     "cost": 1,
     "hp": 0,
     "ap": 1,
+    "level": 2,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "COMMAND",
@@ -1278,7 +1400,7 @@
     "deck_quantities": {
       "ST04": 2
     },
-    "last_updated": 1765777673
+    "last_updated": 1765858258
   },
   {
     "id": "ST04-014",
@@ -1288,6 +1410,8 @@
     "cost": 1,
     "hp": 1,
     "ap": 0,
+    "level": 3,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "COMMAND",
@@ -1299,7 +1423,7 @@
     "deck_quantities": {
       "ST04": 4
     },
-    "last_updated": 1765777673
+    "last_updated": 1765858259
   },
   {
     "id": "ST04-015",
@@ -1309,6 +1433,8 @@
     "cost": 1,
     "hp": 5,
     "ap": 0,
+    "level": 3,
+    "link": "-",
     "color": "White",
     "rarity": "C",
     "type": "BASE",
@@ -1320,7 +1446,7 @@
     "deck_quantities": {
       "ST04": 2
     },
-    "last_updated": 1765777674
+    "last_updated": 1765858260
   },
   {
     "id": "ST04-016",
@@ -1330,6 +1456,8 @@
     "cost": 1,
     "hp": 5,
     "ap": 0,
+    "level": 3,
+    "link": "-",
     "color": "Red",
     "rarity": "C",
     "type": "BASE",
@@ -1341,7 +1469,7 @@
     "deck_quantities": {
       "ST04": 2
     },
-    "last_updated": 1765777675
+    "last_updated": 1765858260
   },
   {
     "id": "ST05-001",
