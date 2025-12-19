@@ -20,7 +20,7 @@ METADATA_FILE = "deck_metadata.json"
 
 # URLs
 DETAIL_URL_TEMPLATE = "https://www.gundam-gcg.com/en/cards/detail.php?detailSearch={}"
-IMAGE_URL_TEMPLATE = "https://www.gundam-gcg.com/en/images/cards/card/{}.webp?251120"
+IMAGE_URL_TEMPLATE = "https://www.gundam-gcg.com/en/images/cards/card/{}.webp"
 PRODUCT_URL_TEMPLATE = "https://www.gundam-gcg.com/en/products/{}.html"
 LAUNCH_NEWS_URL = "https://www.gundam-gcg.com/en/news/02_82.html"
 
@@ -240,7 +240,8 @@ def discover_sets():
 def scrape_card_variants(base_card_id, deck_info_map, existing_db=None):
     """
     Scrapes base card + variants.
-    Ties RARITY strictly to the site's rarity list by index.
+    Ties RARITY to the site's rarity list.
+    Logic: Uses index mapping from rarity list. If image exists but list runs out, appends '+'.
     """
     url = DETAIL_URL_TEMPLATE.format(base_card_id)
     base_stats = None
@@ -277,11 +278,10 @@ def scrape_card_variants(base_card_id, deck_info_map, existing_db=None):
             elif "link" in label: raw_stats["link"] = val
 
         # --- PARSE RARITIES FROM TEXT ---
-        # Look for full strings like "LR / LR+ / LR++"
         if soup.select_one(".rarity"): 
             raw_rarity_text = soup.select_one(".rarity").text.strip()
             rarity_list = extract_rarities(raw_rarity_text)
-            raw_stats["rarity"] = rarity_list[0] # Base default
+            raw_stats["rarity"] = rarity_list[0] 
         else:
             rarity_list = [raw_stats["rarity"]]
 
@@ -300,14 +300,14 @@ def scrape_card_variants(base_card_id, deck_info_map, existing_db=None):
             "level": safe_int(raw_stats["level"]), 
             "link": raw_stats["link"], 
             "color": raw_stats["color"], 
-            "rarity": raw_stats["rarity"], # Will be overwritten per variant
+            "rarity": raw_stats["rarity"], 
             "type": raw_stats["type"],
             "block_icon": block_icon, 
             "trait": raw_stats["trait"], 
             "effect_text": effect_text,
             "release_pack": raw_stats["release"],
             "deck_quantities": deck_quantities, 
-            "available_rarities": rarity_list, # Full list for UI context
+            "available_rarities": rarity_list, 
             "last_updated": int(time.time()) 
         }
 
@@ -332,18 +332,16 @@ def scrape_card_variants(base_card_id, deck_info_map, existing_db=None):
         card_entry = base_stats.copy()
         card_entry["id"] = current_id 
         
-        # --- STRICT RARITY MAPPING ---
-        # Map current image index to the rarity list index.
-        # index 0 (base) -> rarity_list[0] (e.g. LR)
-        # index 1 (_p1)  -> rarity_list[1] (e.g. LR+)
-        # index 2 (_p2)  -> rarity_list[2] (e.g. LR++)
+        # --- FIXED RARITY LOGIC ---
         if variant_index < len(rarity_list):
+            # If the site listed 3 rarities and we are on image 2, use the list
             card_entry["rarity"] = rarity_list[variant_index]
         else:
-            # Fallback: If image exists but text didn't list a distinct rarity for it,
-            # we default to the last known rarity. We do NOT invent "++".
-            card_entry["rarity"] = rarity_list[-1]
-        # -----------------------------
+            # Fallback: We found an image (_p1) but the text only said "C".
+            # This implies a Parallel Art (unlisted). Append a '+' to the last known rarity.
+            last_known = rarity_list[-1]
+            card_entry["rarity"] = f"{last_known}+"
+        # --------------------------
 
         # Handle Cloudinary
         existing_card = existing_db.get(current_id) if existing_db else None
